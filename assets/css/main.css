@@ -322,7 +322,7 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/forumimages.jpg) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -434,13 +434,37 @@ ul li {
  */
 .schedule-box {
   position: relative;
-  background-color: #000;
+  background-color: lightslategray;
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 10px;
   margin: 25px 0 0;
 }
-.schedule-box::before {
+.schedule-box-track1 {
+  position: relative;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 25px 0 0;
+}
+.schedule-box-track2 {
+  position: relative;
+  background-color: seagreen;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 25px 0 0;
+}
+.schedule-box-track3 {
+  position: relative;
+  background-color: orangered;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 25px 0 0;
+}
+/*.schedule-box::before {
   content: '';
   position: absolute;
   top: 5px;
@@ -448,7 +472,7 @@ ul li {
   bottom: 5px;
   left: 5px;
   border: 1px solid #fff;
-}
+}*/
 
 /* 
  * 6.7 Section: Schedule
