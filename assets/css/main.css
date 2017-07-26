@@ -478,15 +478,16 @@ ul li {
     margin: 0;
     height: 225px;
   }
-}
 
-.schedule-box-blank {
-  position: relative;
-  background-color: #fff;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  margin: 25px 0 0;
+
+  .schedule-box-blank {
+    position: relative;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 25px 0 0;
+  }
 }
 /*.schedule-box::before {
   content: '';
