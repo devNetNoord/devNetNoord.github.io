@@ -447,6 +447,7 @@ ul li {
   text-align: center;
   padding: 10px;
   margin: 25px 0 0;
+  height: 200px;
 }
 .schedule-box-track2 {
   position: relative;
@@ -455,10 +456,31 @@ ul li {
   text-align: center;
   padding: 10px;
   margin: 25px 0 0;
+  height: 200px;
 }
 .schedule-box-track3 {
   position: relative;
   background-color: orangered;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 25px 0 0;
+  height: 200px;
+}
+
+.schedule-box-track3-empty {
+  position: relative;
+  background-color: orangered;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  height: 225px;
+}
+
+.schedule-box-blank {
+  position: relative;
+  background-color: #fff;
   color: #fff;
   text-align: center;
   padding: 10px;
