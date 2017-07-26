@@ -438,7 +438,8 @@ ul li {
   color: #fff;
   text-align: center;
   padding: 10px;
-  margin: 25px 0 0;
+  margin: 25px;
+
 }
 .schedule-box-track1 {
   position: relative;
@@ -468,7 +469,7 @@ ul li {
   height: 200px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .schedule-box-track3-empty {
     position: relative;
     background-color: orangered;
