@@ -1,6 +1,21 @@
 figure img {
   width: 255px;
 }
+.room {
+  bottom: 10px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+}
+.schedule-box, .schedule-box-track1, .schedule-box-track2, .schedule-box-track3 {
+  padding-bottom: 2.5em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+.schedule-box .speaker, .schedule-box-track1 .speaker, .schedule-box-track2 .speaker, .schedule-box-track3 .speaker {
+  text-transform: none;
+  color: #bbb;
+}
 .partner .partner-box-1 {
   background: url(../images/partner/4DotNet.jpeg) no-repeat center center/contain;
 }
