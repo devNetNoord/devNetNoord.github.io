@@ -55,3 +55,8 @@ figure img {
 .partner .partner-box-13 {
   background: url(../images/partner/Xpirit.jpeg) no-repeat center center/contain;
 }
+.social-block img {
+  height: 28px;
+  vertical-align: bottom;
+  width: 28px;
+}
