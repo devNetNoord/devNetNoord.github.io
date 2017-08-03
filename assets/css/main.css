@@ -469,6 +469,18 @@ ul li {
   height: 200px;
 }
 
+.schedule-box-track1 h4 a,
+.schedule-box-track2 h4 a,
+.schedule-box-track3 h4 a {
+  color: #fff;
+}
+
+.schedule-box-track1 div a,
+.schedule-box-track2 div a,
+.schedule-box-track3 div a {
+  color: #fff;
+}
+
 @media (min-width: 1024px) {
   .schedule-box-track3-empty {
     position: relative;
