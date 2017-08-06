@@ -238,10 +238,6 @@ ul li {
 }
 
 @media (min-width: 768px) {
-  .section {
-    padding: 90px 0;
-  }
-
   .section-title {
     color: #313131;
     letter-spacing: 1px;

@@ -80,3 +80,7 @@
   vertical-align: bottom;
   width: 28px;
 }
+figure .pull-left {
+  width: 200px;
+  margin: 0 20px 40px 0;
+}
