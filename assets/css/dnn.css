@@ -7,6 +7,17 @@
   filter: none;
   opacity: 1;
 }
+.speaker_bio .speaker h4 {
+  margin-bottom: 10px;
+}
+.speaker_bio .speaker {
+  text-align: inherit;
+  text-transform: inherit;
+}
+.speaker_bio .speaker figure .pull-left {
+  width: 200px;
+  margin: 0 20px 20px 0;
+}
 .room {
   bottom: 10px;
   left: 50%;
@@ -79,8 +90,4 @@
   height: 28px;
   vertical-align: bottom;
   width: 28px;
-}
-figure .pull-left {
-  width: 200px;
-  margin: 0 20px 40px 0;
 }
