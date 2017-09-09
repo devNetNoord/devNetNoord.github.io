@@ -465,12 +465,14 @@ ul li {
   height: 200px;
 }
 
+.schedule-box h4 a,
 .schedule-box-track1 h4 a,
 .schedule-box-track2 h4 a,
 .schedule-box-track3 h4 a {
   color: #fff;
 }
 
+.schedule-box div a,
 .schedule-box-track1 div a,
 .schedule-box-track2 div a,
 .schedule-box-track3 div a {
