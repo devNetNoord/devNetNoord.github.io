@@ -28,6 +28,9 @@
 .schedule {
   background-color: #f8f8f8;
 }
+.schedule-box-session {
+  background-color: orangered;
+}
 .schedule-box, .schedule-box-track1, .schedule-box-track2, .schedule-box-track3 {
   padding-bottom: 2.5em;
   text-shadow: 1px 1px 1px rgba(0,0,0,.3);
