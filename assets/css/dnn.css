@@ -46,39 +46,40 @@
   filter: grayscale(100%);
   opacity: 1;
   transition: all 1s;
+  height: 100px;
 }
 .partner .partner-box:hover {
   filter: none;
 }
 .partner .partner-box-1 {
-  background: url(../images/partner/LOGO_4DOTNET.png) no-repeat center center/contain;
+  background: url(../images/partner/4DotNet.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url(../images/partner/Gasunie.jpeg) no-repeat center center/contain;
+  background: url(../images/partner/Gasunie.png) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
   background: url(../images/partner/GetThere.jpeg) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
-  background: url(../images/partner/Google.jpeg) no-repeat center center/contain;
+  background: url(../images/partner/Google.png) no-repeat center center/contain;
 }
 .partner .partner-box-5 {
   background: url(../images/partner/Ilionx.jpeg) no-repeat center center/contain;
 }
 .partner .partner-box-6 {
-  background: url(../images/partner/KPN.jpeg) no-repeat center center/contain;
+  background: url(../images/partner/KPN.png) no-repeat center center/contain;
 }
 .partner .partner-box-7 {
-  background: url(../images/partner/Magister.jpeg) no-repeat center center/contain;
+  background: url(../images/partner/Magister.png) no-repeat center center/contain;
 }
 .partner .partner-box-8 {
   background: url(../images/partner/NewNexus.png) no-repeat center center/contain;
 }
 .partner .partner-box-9 {
-  background: url(../images/partner/Ordina.jpeg) no-repeat center center/contain;
+  background: url(../images/partner/Ordina.png) no-repeat center center/contain;
 }
 .partner .partner-box-10 {
-  background: url(../images/partner/Quintor.jpeg) no-repeat center center/contain;
+  background: url(../images/partner/Quintor.png) no-repeat center center/contain;
 }
 .partner .partner-box-11 {
   background: url(../images/partner/Sogeti.jpeg) no-repeat center center/contain;
