@@ -82,13 +82,16 @@
   background: url(../images/partner/Quintor.png) no-repeat center center/contain;
 }
 .partner .partner-box-11 {
-  background: url(../images/partner/Sogeti.jpeg) no-repeat center center/contain;
+  background: url(../images/partner/Sogeti.png) no-repeat center center/contain;
 }
 .partner .partner-box-12 {
   background: url(../images/partner/Axians.png) no-repeat center center/contain;
 }
 .partner .partner-box-13 {
   background: url(../images/partner/RDW.jpeg) no-repeat center center/contain;
+}
+.partner .partner-box-14 {
+  background: url(../images/partner/Xpirit.png) no-repeat center center/contain;
 }
 .social-block img {
   height: 28px;
