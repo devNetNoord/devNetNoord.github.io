@@ -51,47 +51,50 @@
 .partner .partner-box:hover {
   filter: none;
 }
-.partner .partner-box-1 {
+.partner .partner-box-4dotnet {
   background: url(../images/partner/4DotNet.png) no-repeat center center/contain;
 }
-.partner .partner-box-2 {
+.partner .partner-box-gasunie {
   background: url(../images/partner/Gasunie.png) no-repeat center center/contain;
 }
-.partner .partner-box-3 {
-  background: url(../images/partner/GetThere.jpeg) no-repeat center center/contain;
+.partner .partner-box-getthere {
+  background: url(../images/partner/GetThere.png) no-repeat center center/contain;
 }
-.partner .partner-box-4 {
+.partner .partner-box-google {
   background: url(../images/partner/Google.png) no-repeat center center/contain;
 }
-.partner .partner-box-5 {
+.partner .partner-box-ilionx {
   background: url(../images/partner/ilionx.png) no-repeat center center/contain;
 }
-.partner .partner-box-6 {
+.partner .partner-box-kpn {
   background: url(../images/partner/KPN.png) no-repeat center center/contain;
 }
-.partner .partner-box-7 {
+.partner .partner-box-magister {
   background: url(../images/partner/Magister.png) no-repeat center center/contain;
 }
-.partner .partner-box-8 {
+.partner .partner-box-newnexus {
   background: url(../images/partner/NewNexus.png) no-repeat center center/contain;
 }
-.partner .partner-box-9 {
+.partner .partner-box-ordina {
   background: url(../images/partner/Ordina.png) no-repeat center center/contain;
 }
-.partner .partner-box-10 {
+.partner .partner-box-quintor {
   background: url(../images/partner/Quintor.png) no-repeat center center/contain;
 }
-.partner .partner-box-11 {
+.partner .partner-box-sogeti {
   background: url(../images/partner/Sogeti.png) no-repeat center center/contain;
 }
-.partner .partner-box-12 {
+.partner .partner-box-axians {
   background: url(../images/partner/Axians.png) no-repeat center center/contain;
 }
-.partner .partner-box-13 {
+.partner .partner-box-rdw {
   background: url(../images/partner/RDW.jpeg) no-repeat center center/contain;
 }
-.partner .partner-box-14 {
+.partner .partner-box-xpirit {
   background: url(../images/partner/Xpirit.png) no-repeat center center/contain;
+}
+.partner .partner-box-centric {
+  background: url(../images/partner/Centric.png) no-repeat center center/contain;
 }
 .social-block img {
   height: 28px;
