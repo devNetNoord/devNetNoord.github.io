@@ -435,7 +435,9 @@ ul li {
   text-align: center;
   padding: 10px;
   margin: 25px 0 0 ;
-
+}
+.schedule-box-session {
+  background-color: #4BADE9;
 }
 .schedule-box-track1 {
   position: relative;
