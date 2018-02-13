@@ -2,7 +2,22 @@
   max-height: 44px;
   margin: 6px 0;
 }
-
+.schedule-box-coffee, .schedule-box-dinner, .schedule-box-drinks {
+  background-size: cover;
+  background-position-y: center;  
+}
+.schedule-box-coffee {
+  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
+                    url(../images/backgrounds/coffee.jpg);
+}
+.schedule-box-dinner {
+  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
+                    url(../images/backgrounds/dinner.jpg);
+}
+.schedule-box-drinks {
+  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
+                    url(../images/backgrounds/drinks.jpg);
+}
 .speaker img {
   width: 255px;
   filter: grayscale(100%);
