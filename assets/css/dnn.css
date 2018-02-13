@@ -1,3 +1,8 @@
+.navbar-solid .site-branding .logo img {
+  max-height: 44px;
+  margin-bottom: 6px;
+}
+
 .speaker img {
   width: 255px;
   filter: grayscale(100%);
