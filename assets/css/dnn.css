@@ -102,7 +102,5 @@
   background: url(../images/partner/Centric.png) no-repeat center center/contain;
 }
 .social-block img {
-  height: 28px;
-  vertical-align: bottom;
-  width: 28px;
+  margin-top: -14px;
 }
