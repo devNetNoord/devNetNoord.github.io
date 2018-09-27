@@ -116,6 +116,9 @@
 .partner .partner-box-centric {
   background: url(../images/partner/Centric.png) no-repeat center center/contain;
 }
+.partner .partner-box-vitas {
+  background: url(../images/partner/Vitas.png) no-repeat center center/contain;
+}
 .social-block img {
   margin-top: -14px;
 }
