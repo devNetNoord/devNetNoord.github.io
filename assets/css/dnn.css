@@ -1,3 +1,7 @@
+#site-header {
+  background-image: url(../images/backgrounds/vig-hote-groningen-plaza-1400x900.jpg);
+}
+
 .navbar-solid .site-branding .logo img {
   max-height: 44px;
   margin: 6px 0;
@@ -33,6 +37,7 @@
 }
 .speaker_bio .speaker h4 {
   margin-bottom: 10px;
+  text-align: left;
 }
 .speaker_bio .speaker {
   text-align: inherit;
