@@ -49,6 +49,7 @@
 }
 .room {
   bottom: 10px;
+  color: rgba(255, 255, 255, .45);
   left: 50%;
   position: absolute;
   text-align: center;
