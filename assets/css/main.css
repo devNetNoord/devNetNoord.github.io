@@ -143,7 +143,7 @@ ul li {
   letter-spacing: 1px;
   margin: 0 0 20px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 .sessions {
   text-align: left;
