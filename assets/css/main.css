@@ -145,6 +145,15 @@ ul li {
   text-transform: uppercase;
   text-align: left;
 }
+
+.section-title-centered {
+  color: #313131;
+  letter-spacing: 1px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .sessions {
   text-align: left;
 }
