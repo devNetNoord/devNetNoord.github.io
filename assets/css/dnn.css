@@ -1,4 +1,8 @@
 #site-header {
+  background-image: url(../images/backgrounds/gasunie.jpg);
+}
+
+#site-header.hotelgroningenplaza {
   background-image: url(../images/backgrounds/vig-hote-groningen-plaza-1400x900.jpg);
 }
 
