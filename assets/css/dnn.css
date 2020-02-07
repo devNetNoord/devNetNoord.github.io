@@ -136,6 +136,9 @@
 .partner .partner-box-fullred {
   background: url(../images/partner/fullred.png) no-repeat center center/contain;
 }
+.partner .partner-box-ict {
+  background: url(../images/partner/ICT.png) no-repeat center center/contain;
+}
 .social-block img {
   margin-top: -14px;
 }
