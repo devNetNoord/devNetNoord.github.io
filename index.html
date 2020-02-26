@@ -1,491 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>devNetNoord 16 april 2020</title>
 
     <!-- css -->
-    <link
-      rel="stylesheet"
-      href="bower_components/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="bower_components/ionicons/css/ionicons.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/dnn.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/dnn.css">
 
-    <link rel="shortcut icon" href="assets/images/logo-2016.sqr.png" />
-  </head>
-  <body data-spy="scroll" data-target="#site-nav">
-    <nav
-      data-scroll-header
-      id="site-nav"
-      class="navbar navbar-fixed-top navbar-custom"
-    >
-      <div class="container">
-        <div class="navbar-header">
-          <!-- logo -->
-          <div class="site-branding">
-            <a class="logo" href="index.html">
-              <!-- logo image  -->
-              <img src="assets/images/logo-2016.w.150x120.png" alt="Logo" />
-            </a>
-          </div>
+    <link rel="shortcut icon" href="assets/images/logo-2016.sqr.png">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav data-scroll-header id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
 
-          <button
-            type="button"
-            class="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#navbar-items"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <!-- /.navbar-header -->
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        <!-- logo image  -->
+                        <img src="assets/images/logo-2016.w.150x120.png" alt="Logo">
+                    </a>
+                </div>
 
-        <div class="collapse navbar-collapse" id="navbar-items">
-          <ul class="nav navbar-nav navbar-right">
-            <!-- navigation menu -->
-            <li><a data-scroll href="#speakers">Sprekers</a></li>
-            <li><a data-scroll href="#schedule">Agenda</a></li>
-            <li><a data-scroll href="#partner">Sponsors</a></li>
-            <li><a data-scroll href="#location">Locatie</a></li>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-            <li style="display:none"><a data-scroll href="#sessions"></a></li>
-            <li style="display:none"><a data-scroll href="#hands_on"></a></li>
-            <li style="display:none">
-              <a data-scroll href="#speaker_bio"></a>
-            </li>
+            </div><!-- /.navbar-header -->
 
-            <!--<li><a data-scroll href="#sponsors">Sponsorship</a></li> -->
-            <!--<li><a href="https://www.meetup.com/devnetnoord/events/239688645/" target="_blank">Inschrijven</a></li>-->
-            <!-- <li><a data-scroll href="#photos">Photos</a></li> -->
-          </ul>
-        </div>
-      </div>
-      <!-- /.container -->
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li><a data-scroll href="#speakers">Sprekers</a></li>
+                    <li><a data-scroll href="#schedule">Agenda</a></li>
+                    <li><a data-scroll href="#partner">Sponsors</a></li>
+                    <li><a data-scroll href="#location">Locatie</a></li>
+
+                    <li style="display:none"><a data-scroll href="#sessions"></a></li>
+                    <li style="display:none"><a data-scroll href="#hands_on"></a></li>
+                    <li style="display:none"><a data-scroll href="#speaker_bio"></a></li>
+
+                    <!--<li><a data-scroll href="#sponsors">Sponsorship</a></li> -->
+                    <!--<li><a href="https://www.meetup.com/devnetnoord/events/239688645/" target="_blank">Inschrijven</a></li>-->
+                    <!-- <li><a data-scroll href="#photos">Photos</a></li> -->
+
+                </ul>
+            </div>
+        </div><!-- /.container -->
     </nav>
 
-    <header
-      id="site-header"
-      class="site-header valign-center hotelgroningenplaza"
-    >
-      <div class="intro">
-        <h2>16 april 2020 / Best Western Plus Hotel Groningen Plaza</h2>
+    <header id="site-header" class="site-header valign-center hotelgroningenplaza">
+        <div class="intro">
 
-        <h1>devNetNoord</h1>
+            <h2>16 april 2020 / Best Western Plus Hotel Groningen Plaza</h2>
 
-        <a
-          class="btn btn-white"
-          href="https://www.meetup.com/nl-NL/devnetnoord/events/268486380/"
-          target="_blank"
-          >Inschrijven</a
-        >
-      </div>
+            <h1>devNetNoord</h1>
+
+            <a class="btn btn-white" href="https://www.meetup.com/nl-NL/devnetnoord/events/268486380/" target="_blank">Inschrijven</a>
+        </div>
     </header>
 
     <section id="speakers" class="section speakers">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title-centered">Sprekers</h3>
-            <p>
-              Loading...
-            </p>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Sprekers</h3>
+                    <p>
+                        Loading...
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section id="schedule" class="section schedule">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title-centered">Agenda</h3>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Agenda</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box">
+                        <div class="time">
+                            09:30 - 10:00
+                        </div>
+                        <h4>Ontvangst met koffie & thee</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-track1">
+                        <div class="time">
+                            10:00 - 10:45
+                        </div>
+                        <h4><a data-scroll href="#openingkeynote">Opening keynote</a></h4>
+                        <div class="speaker"></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-coffee">
+                        <div class="time">
+                            10:45 - 11:15
+                        </div>
+                        <h4>Pauze</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track1">
+                        <div class="time">
+                            11:15 - 12:00
+                        </div>
+                        <h4>Sessie</h4>
+                        <div class="speaker"></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track2">
+                        <div class="time">
+                            11:15 - 12:00
+                        </div>
+                        <h4>Sessie</h4>
+                        <div class="speaker"></div>
+                        <div class="room">Conferentiezaal I</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track3">
+                        <div class="time">
+                            11:15 - 12:00
+                        </div>
+                        <h4>Sessie</h4>
+                        <div class="speaker"></div>
+                        <div class="room">Conferentiezaal II</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-lunch">
+                        <div class="time">
+                            12:00 - 13:00
+                        </div>
+                        <h4>Lunch</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track1">
+                        <div class="time">
+                            13:00 - 13:45
+                        </div>
+                        <h4>Sessie</h4>
+                        <div class="speaker"></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track2">
+                        <div class="time">
+                            13:00 - 13:45
+                        </div>
+                        <h4>Sessie</h4>
+                        <div class="speaker"></div>
+                        <div class="room">Conferentiezaal I</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track3">
+                        <div class="time">
+                            13:00 - 13:45
+                        </div>
+                        <h4>Sessie</h4>
+                        <div class="speaker"></div>
+                        <div class="room">Conferentiezaal II</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track1">
+                        <div class="time">
+                            14:00 - 14:45
+                        </div>
+                        <h4>Sessie</h4>
+                        <div class="speaker"></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track2">
+                        <div class="time">
+                            14:00 - 14:45
+                        </div>
+                        <h4>Sessie</h4>
+                        <div class="speaker"></div>
+                        <div class="room">Conferentiezaal I</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track3">
+                        <div class="time">
+                            14:00 - 14:45
+                        </div>
+                        <h4>Sessie</h4>
+                        <div class="speaker"></div>
+                        <div class="room">Conferentiezaal II</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-coffee">
+                        <div class="time">
+                            14:45 - 15:15
+                        </div>
+                        <h4>Pauze</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-track1">
+                        <div class="time">
+                            15:15 - 16:00
+                        </div>
+                        <h4><a data-scroll href="#closingkeynote">Closing keynote</a></h4>
+                        <div class="speaker"></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-drinks">
+                        <div class="time">
+                            16:00 - 17:00
+                        </div>
+                        <h4>Afsluiting & Borrel</h4>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="schedule-box">
-              <div class="time">
-                09:30 - 10:00
-              </div>
-              <h4>Ontvangst met koffie & thee</h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="schedule-box schedule-box-track1">
-              <div class="time">
-                10:00 - 10:45
-              </div>
-              <h4><a data-scroll href="#openingkeynote">Opening keynote</a></h4>
-              <div class="speaker"></div>
-              <div class="room">Auditorium</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="schedule-box schedule-box-coffee">
-              <div class="time">
-                10:45 - 11:15
-              </div>
-              <h4>Pauze</h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div class="schedule-box-track1">
-              <div class="time">
-                11:15 - 12:00
-              </div>
-              <h4>Sessie</h4>
-              <div class="speaker"></div>
-              <div class="room">Auditorium</div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="schedule-box-track2">
-              <div class="time">
-                11:15 - 12:00
-              </div>
-              <h4>Sessie</h4>
-              <div class="speaker"></div>
-              <div class="room">Conferentiezaal I</div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="schedule-box-track3">
-              <div class="time">
-                11:15 - 12:00
-              </div>
-              <h4>Sessie</h4>
-              <div class="speaker"></div>
-              <div class="room">Conferentiezaal II</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="schedule-box schedule-box-lunch">
-              <div class="time">
-                12:00 - 13:00
-              </div>
-              <h4>Lunch</h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div class="schedule-box-track1">
-              <div class="time">
-                13:00 - 13:45
-              </div>
-              <h4>Sessie</h4>
-              <div class="speaker"></div>
-              <div class="room">Auditorium</div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="schedule-box-track2">
-              <div class="time">
-                13:00 - 13:45
-              </div>
-              <h4>Sessie</h4>
-              <div class="speaker"></div>
-              <div class="room">Conferentiezaal I</div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="schedule-box-track3">
-              <div class="time">
-                13:00 - 13:45
-              </div>
-              <h4>Sessie</h4>
-              <div class="speaker"></div>
-              <div class="room">Conferentiezaal II</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div class="schedule-box-track1">
-              <div class="time">
-                14:00 - 14:45
-              </div>
-              <h4>Sessie</h4>
-              <div class="speaker"></div>
-              <div class="room">Auditorium</div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="schedule-box-track2">
-              <div class="time">
-                14:00 - 14:45
-              </div>
-              <h4>Sessie</h4>
-              <div class="speaker"></div>
-              <div class="room">Conferentiezaal I</div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="schedule-box-track3">
-              <div class="time">
-                14:00 - 14:45
-              </div>
-              <h4>Sessie</h4>
-              <div class="speaker"></div>
-              <div class="room">Conferentiezaal II</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="schedule-box schedule-box-coffee">
-              <div class="time">
-                14:45 - 15:15
-              </div>
-              <h4>Pauze</h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="schedule-box schedule-box-track1">
-              <div class="time">
-                15:15 - 16:00
-              </div>
-              <h4><a data-scroll href="#closingkeynote">Closing keynote</a></h4>
-              <div class="speaker"></div>
-              <div class="room">Auditorium</div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="schedule-box schedule-box-drinks">
-              <div class="time">
-                16:00 - 17:00
-              </div>
-              <h4>Afsluiting & Borrel</h4>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <section id="partner" class="section partner">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title-centered">Organisatie</h3>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Organisatie</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.gasunie.nl/" target="_blank" class="partner-box partner-box-gasunie"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.kpn.com/" target="_blank" class="partner-box partner-box-kpn"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.ordina.nl/" target="_blank" class="partner-box partner-box-ordina"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Sponsors</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="https://www.ilionx.com/" target="_blank" class="partner-box partner-box-ilionx"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://ict.eu/nl/" target="_blank" class="partner-box partner-box-ict"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://newnexus.nl/" target="_blank" class="partner-box partner-box-newnexus"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="http://www.4dotnet.nl/" target="_blank" class="partner-box partner-box-4dotnet"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="https://www.axians.nl/" target="_blank" class="partner-box partner-box-axians"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://www.quintor.nl/" target="_blank" class="partner-box partner-box-quintor"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://www.vitas.nl/" target="_blank" class="partner-box partner-box-vitas"></a>
+                </div>                
+                <div class="col-sm-3">
+                    <a href="https://www.getthere.nl/" target="_blank" class="partner-box partner-box-getthere"></a>
+                </div>                
+            </div>
         </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <a
-              href="https://www.gasunie.nl/"
-              target="_blank"
-              class="partner-box partner-box-gasunie"
-            ></a>
-          </div>
-          <div class="col-sm-4">
-            <a
-              href="https://www.kpn.com/"
-              target="_blank"
-              class="partner-box partner-box-kpn"
-            ></a>
-          </div>
-          <div class="col-sm-4">
-            <a
-              href="https://www.ordina.nl/"
-              target="_blank"
-              class="partner-box partner-box-ordina"
-            ></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title-centered">Sponsors</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <a
-              href="https://www.ilionx.com/"
-              target="_blank"
-              class="partner-box partner-box-ilionx"
-            ></a>
-          </div>
-          <div class="col-sm-3">
-            <a
-              href="https://ict.eu/nl/"
-              target="_blank"
-              class="partner-box partner-box-ict"
-            ></a>
-          </div>
-          <div class="col-sm-3">
-            <a
-              href="https://newnexus.nl/"
-              target="_blank"
-              class="partner-box partner-box-newnexus"
-            ></a>
-          </div>
-          <div class="col-sm-3">
-            <a
-              href="http://www.4dotnet.nl/"
-              target="_blank"
-              class="partner-box partner-box-4dotnet"
-            ></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <a
-              href="https://www.axians.nl/"
-              target="_blank"
-              class="partner-box partner-box-axians"
-            ></a>
-          </div>
-          <div class="col-sm-3">
-            <a
-              href="https://www.quintor.nl/"
-              target="_blank"
-              class="partner-box partner-box-quintor"
-            ></a>
-          </div>
-          <div class="col-sm-3">
-            <a
-              href="https://www.vitas.nl/"
-              target="_blank"
-              class="partner-box partner-box-vitas"
-            ></a>
-          </div>
-          <div class="col-sm-3">
-            <a
-              href="https://www.getthere.nl/"
-              target="_blank"
-              class="partner-box partner-box-getthere"
-            ></a>
-          </div>
-        </div>
-      </div>
     </section>
 
     <section id="location" class="section location">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-4">
-            <h3 class="section-title">Locatie</h3>
-            <address>
-              <p>
-                Best Western Plus Hotel Groningen Plaza<br />
-                Laan Corpus den Hoorn 300<br />
-                9728 JT<br />
-                Groningen
-              </p>
-            </address>
-          </div>
-          <div class="col-sm-6">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.6883264237285!2d6.561690415378421!3d53.18757059429388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c832a3526500a9%3A0x89867224e12d6725!2sBest+Western+Plus+Hotel+Groningen+Plaza!5e0!3m2!1snl!2snl!4v1552504046879"
-              width="100%"
-              frameborder="0"
-              style="border:0"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-sm-1"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4">
+                    <h3 class="section-title">Locatie</h3>
+                    <address>
+                        <p>
+                            Best Western Plus Hotel Groningen Plaza<br>
+                            Laan Corpus den Hoorn 300<br>
+                            9728 JT<br>
+                            Groningen
+                        </p>
+                    </address>
+                </div>
+                <div class="col-sm-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.6883264237285!2d6.561690415378421!3d53.18757059429388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c832a3526500a9%3A0x89867224e12d6725!2sBest+Western+Plus+Hotel+Groningen+Plaza!5e0!3m2!1snl!2snl!4v1552504046879" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section id="sessions" class="section sessions">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3 class="section-title">Sessies</h3>
-            <p>
-              Loading...
-            </p>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">Sessies</h3>
+                    <p>
+                        Loading...
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section id="speaker_bio" class="section speaker_bio">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3 class="section-title">Info Sprekers</h3>
-            <p>
-              Loading...
-            </p>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">Info Sprekers</h3>
+                    <p>
+                        Loading...
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p class="site-info">devNetNoord 2019</p>
-            <ul class="social-block">
-              <li>
-                <a href="https://www.meetup.com/devnetnoord" target="_blank"
-                  ><img src="assets/images/meetup.png"
-                /></a>
-              </li>
-              <li>
-                <a href="https://speakerdeck.com/devnetnoord" target="_blank"
-                  ><img src="assets/images/sliderdeck.png"
-                /></a>
-              </li>
-              <li>
-                <a href="https://github.com/devNetNoord" target="_blank"
-                  ><i class="ion-social-github"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/devnetnoord" target="_blank"
-                  ><i class="ion-social-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/devnetnoord/" target="_blank"
-                  ><i class="ion-social-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/groups/4056831"
-                  target="_blank"
-                  ><i class="ion-social-linkedin-outline"></i
-                ></a>
-              </li>
-              <li>
-                <a href="mailto:info@devnetnoord.nl"
-                  ><i class="ion-email"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">devNetNoord 2019</p>
+                    <ul class="social-block">
+                      <li><a href="https://www.meetup.com/devnetnoord" target="_blank"><img src="assets/images/meetup.png"/></a></li>
+                      <li><a href="https://speakerdeck.com/devnetnoord" target="_blank"><img src="assets/images/sliderdeck.png"/></a></li>
+                      <li><a href="https://github.com/devNetNoord" target="_blank"><i class="ion-social-github"></i></a></li>
+                      <li><a href="https://twitter.com/devnetnoord" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                      <li><a href="https://www.facebook.com/devnetnoord/" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                      <li><a href="https://www.linkedin.com/groups/4056831" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
+                      <li><a href="mailto:info@devnetnoord.nl"><i class="ion-email"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
 
     <!-- script -->
@@ -493,5 +390,5 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <script src="assets/js/main.js"></script>
-  </body>
+</body>
 </html>
