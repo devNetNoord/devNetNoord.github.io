@@ -36,14 +36,6 @@ h6 {
   font-weight: 700;
 }
 
-p {
-  margin: 0 0 30px;
-}
-
-ul li {
-  font-weight: 700;
-}
-
 .custom-list-icon, .list-arrow-right {
   list-style-type: none;
   padding: 0;
