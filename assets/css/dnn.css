@@ -1,11 +1,13 @@
 #site-header {
   background-image: url(../images/backgrounds/gasunie.jpg);
 }
-
 #site-header.hotelgroningenplaza {
   background-image: url(../images/backgrounds/vig-hote-groningen-plaza-1400x900.jpg);
 }
-
+.intro .alert {
+  margin-top: 2em;
+  text-transform: none;
+}
 .navbar-solid .site-branding .logo img {
   max-height: 44px;
   margin: 6px 0;
