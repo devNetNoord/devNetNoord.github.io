@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>devNetNoord | voorjaar 2021</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/dnn.css" />
+
+    <link rel="shortcut icon" href="assets/images/logo-2016.sqr.png" />
+</head>
+
+<body data-spy="scroll" data-target="#site-nav">
+    <nav data-scroll-header id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        <!-- logo image  -->
+                        <img src="assets/images/logo-2016.w.150x120.png" alt="Logo" />
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- navigation menu -->
+                    <li><a data-scroll href="#speakers">Sprekers</a></li>
+                    <li><a data-scroll href="#schedule">Agenda</a></li>
+                    <li><a data-scroll href="#partner">Sponsors</a></li>
+                    <li><a data-scroll href="#location">Locatie</a></li>
+
+                    <li style="display:none"><a data-scroll href="#sessions"></a></li>
+                    <li style="display:none"><a data-scroll href="#hands_on"></a></li>
+                    <li style="display:none">
+                        <a data-scroll href="#speaker_bio"></a>
+                    </li>
+
+                    <!--<li><a data-scroll href="#sponsors">Sponsorship</a></li> -->
+                    <!--<li><a href="https://www.meetup.com/devnetnoord/events/239688645/" target="_blank">Inschrijven</a></li>-->
+                    <!-- <li><a data-scroll href="#photos">Photos</a></li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center hotelgroningenplaza">
+        <div class="intro">
+            <h2>Voorjaar 2021 / Best Western Plus Hotel Groningen Plaza</h2>
+
+            <h1>devNetNoord</h1>
+<!--
+            <a class="btn btn-white" href="https://www.meetup.com/nl-NL/devnetnoord/events/268486380/"
+                target="_blank">Inschrijven</a>
+-->
+            <div class="alert alert-danger" role="alert">
+                Aangezien de omstandigheden het nog niet toelaten hebben we besloten ons evenement verder uit te stellen tot het <strong>voorjaar van 2021</strong>.
+                <br/><br/>
+                We wensen iedereen sterkte de komende tijd en hopen jullie volgend jaar te zien op devNetNoord.
+            </div>
+        </div>
+    </header>
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Sprekers</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#wouterdekort">
+                                <img alt="" class="img-responsive center-block"
+                                    src="assets/images/speakers/Wouter_de_Kort-sq.png">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#wouterdekort">Wouter de Kort</a></h4>
+                        <p>Sogeti</p>
+                        <ul class="social-block">
+                            <li><a href="https://wouterdekort.com/" target="_blank"><i class="ion-earth"></i></a></li>
+                            <li><a href="https://twitter.com/wouterdekort" target="_blank"><i
+                                        class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/wouter-de-kort" target="_blank"><i
+                                        class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href="mailto:wouter@wouterdekort.com"><i class="ion-email"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                          <a data-scroll href="#martdegraaf">
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/Mart_de_Graaf.jpg">
+                          </a>
+                        </figure>
+                        <h4><a data-scroll href="#martdegraaf">Mart de Graaf</a></h4>
+                        <p>4DotNet</p>
+                        <ul class="social-block">
+                          <li><a href="http://www.martdegraaf.nl/" target="_blank"><i class="ion-earth"></i></a></li>
+                          <li><a href="https://twitter.com/martdegraaf" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                          <li><a href="https://www.linkedin.com/in/mart-de-graaf/" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#alexdegroot">
+                                <img alt="" class="img-responsive center-block"
+                                    src="assets/images/speakers/Alex_de_Groot.jpg">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#alexdegroot">Alex de Groot</a></h4>
+                        <p>Xpirit</p>
+                        <ul class="social-block">
+                            <li><a href="https://twitter.com/alexdegroot" target="_blank"><i
+                                        class="ion-social-twitter"></i></a></li>
+                            <li><a href="http://linkedin.com/in/alexdegroot" target="_blank"><i
+                                        class="ion-social-linkedin-outline"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#bouwewesterdijk">
+                                <img alt="" class="img-responsive center-block"
+                                    src="assets/images/speakers/Bouwe_Westerdijk.jpg">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#bouwewesterdijk">Bouwe Westerdijk</a></h4>
+                        <p>New Nexus</p>
+                        <ul class="social-block">
+                            <li><a href="http://bouwe.io/" target="_blank"><i class="ion-earth"></i></a></li>
+                            <li><a href="https://twitter.com/bouwe" target="_blank"><i
+                                        class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/bkwesterdijk" target="_blank"><i
+                                        class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href="mailto:bwesterdijk@newnexus.nl"><i class="ion-email"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#jasperdiefenbach">
+                                <img alt="" class="img-responsive center-block"
+                                    src="assets/images/speakers/JasperDiefenbach-sq.jpg">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#jasperdiefenbach">Jasper Diefenbach</a></h4>
+                        <p>ilionx</p>
+                        <ul class="social-block">
+                            <li><a href="https://www.linkedin.com/in/jasper-diefenbach-43483b33/" target="_blank"><i
+                                        class="ion-social-linkedin-outline"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#saskiagroenewegen">
+                                <img alt="" class="img-responsive center-block"
+                                    src="assets/images/speakers/SaskiaGroenewegen.png">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#saskiagroenewegen">Saskia Groenewegen</a></h4>
+                        <p>Ordina</p>
+                        <ul class="social-block">
+                            <li><a href="https://twitter.com/saskia3D" target="_blank"><i
+                                class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/sgroenewegen/" target="_blank"><i
+                                        class="ion-social-linkedin-outline"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#eelcokoster">
+                                <img alt="" class="img-responsive center-block"
+                                    src="assets/images/speakers/EelcoKoster.jpg">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#eelcokoster">Eelco Koster</a></h4>
+                        <p>Vitas</p>
+                        <ul class="social-block">
+                            <li><a href="https://twitter.com/Eelco_zelf" target="_blank"><i
+                                        class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/eelcokoster/" target="_blank"><i
+                                        class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href="mailto:eelco.koster@gmail.com"><i class="ion-email"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#erwinstaal">
+                                <img alt="" class="img-responsive center-block"
+                                    src="assets/images/speakers/ErwinStaal.jpg">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#erwinstaal">Erwin Staal</a></h4>
+                        <p>4DotNet</p>
+                        <ul class="social-block">
+                            <li><a href="https://twitter.com/erwin_staal" target="_blank"><i
+                                        class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/erwinstaal/" target="_blank"><i
+                                        class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href="mailto:erwinstaal@gmail.com"><i class="ion-email"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#tjeerdmennodouma">
+                                <img alt="" class="img-responsive center-block"
+                                    src="assets/images/speakers/TjeerdMennoDouma.jpg">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#tjeerdmennodouma">Tjeerd-Menno Douma</a></h4>
+                        <p>Iddink Group</p>
+                        <ul class="social-block">
+                            <li><a href="https://www.linkedin.com/in/tjeerdmenno/" target="_blank"><i
+                                        class="ion-social-linkedin-outline"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block"
+                                src="assets/images/speakers/AndreBroers-sq.jpg">
+                        </figure>
+                        <h4>Andre Broers</h4>
+                        <p>ICT Group</p>
+                        <ul class="social-block">
+                            <li><a href="https://twitter.com/broersa" target="_blank"><i
+                                class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/broersa/" target="_blank"><i
+                                        class="ion-social-linkedin-outline"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Agenda</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box">
+                        <div class="time">
+                            09:30 - 10:00
+                        </div>
+                        <h4>Ontvangst met koffie & thee</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-track1">
+                        <div class="time">
+                            10:00 - 10:45
+                        </div>
+                        <h4><a data-scroll href="#devopsutopia">DevOps Utopia</a></h4>
+                        <div class="speaker"><a data-scroll href="#wouterdekort">Wouter de Kort</a></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-coffee">
+                        <div class="time">
+                            10:45 - 11:15
+                        </div>
+                        <h4>Pauze</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track1">
+                        <div class="time">
+                            11:15 - 12:00
+                        </div>
+                        <h4><a data-scroll href="#advancedgit">Advanced Git and Git workflows</a></h4>
+                        <div class="speaker"><a data-scroll href="#martdegraaf">Mart de Graaf</a></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track2">
+                        <div class="time">
+                            11:15 - 12:00
+                        </div>
+                        <h4><a data-scroll href="#aincs">Architecting real life solutions with AI & Cognitive Services</a></h4>
+                        <div class="speaker"><a data-scroll href="#alexdegroot">Alex de Groot</a></div>
+                        <div class="room">Conferentiezaal I</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track3">
+                        <div class="time">
+                            11:15 - 12:00
+                        </div>
+                        <h4><a data-scroll href="#graphql">Power to the client with GraphQL</a></h4>
+                        <div class="speaker"><a data-scroll href="#bouwewesterdijk">Bouwe Westerdijk</a></div>
+                        <div class="room">Conferentiezaal II</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-lunch">
+                        <div class="time">
+                            12:00 - 13:00
+                        </div>
+                        <h4>Lunch</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track1">
+                        <div class="time">
+                            13:00 - 13:45
+                        </div>
+                        <h4><a data-scroll href="#sportanalytics">Sport Analytics</a></h4>
+                        <div class="speaker"><a data-scroll href="#jasperdiefenbach">Jasper Diefenbach</a></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track2">
+                        <div class="time">
+                            13:00 - 13:45
+                        </div>
+                        <h4><a data-scroll href="#xr">Handenvrij en collaboratief werken met XR</a></h4>
+                        <div class="speaker"><a data-scroll href="#saskiagroenewegen">Saskia Groenewegen</a></div>
+                        <div class="room">Conferentiezaal I</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track3">
+                        <div class="time">
+                            13:00 - 13:45
+                        </div>
+                        <h4><a data-scroll href="#dapr">Introductie: Distributed Application Runtime (Dapr)</a></h4>
+                        <div class="speaker"><a data-scroll href="#eelcokoster">Eelco Koster</a></div>
+                        <div class="room">Conferentiezaal II</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track1">
+                        <div class="time">
+                            14:00 - 14:45
+                        </div>
+                        <h4><a data-scroll href="#openfaas">Serverless functions everywhere with OpenFaas</a></h4>
+                        <div class="speaker"><a data-scroll href="#erwinstaal">Erwin Staal</a></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track2">
+                        <div class="time">
+                            14:00 - 14:45
+                        </div>
+                        <h4><a data-scroll href="#nomoresecrets">No more secrets! Securing Azure cloud applications
+                                using managed identities</a></h4>
+                        <div class="speaker"><a data-scroll href="#tjeerdmennodouma">Tjeerd-Menno Douma</a></div>
+                        <div class="room">Conferentiezaal I</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box-track3">
+                        <div class="time">
+                            14:00 - 14:45
+                        </div>
+                        <h4><a data-scroll href="#orleans">Process IoT data with Microsoft Orleans</a></h4>
+                        <div class="speaker">Andre Broers</div>
+                        <div class="room">Conferentiezaal II</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-coffee">
+                        <div class="time">
+                            14:45 - 15:15
+                        </div>
+                        <h4>Pauze</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-track1">
+                        <div class="time">
+                            15:15 - 16:00
+                        </div>
+                        <h4><a data-scroll href="#closingkeynote">Closing keynote</a></h4>
+                        <div class="speaker"></div>
+                        <div class="room">Auditorium</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-drinks">
+                        <div class="time">
+                            16:00 - 17:00
+                        </div>
+                        <h4>Afsluiting & Borrel</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Organisatie</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.gasunie.nl/" target="_blank" class="partner-box partner-box-gasunie"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.kpn.com/" target="_blank" class="partner-box partner-box-kpn"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.ordina.nl/" target="_blank" class="partner-box partner-box-ordina"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Sponsors</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="https://www.ilionx.com/" target="_blank" class="partner-box partner-box-ilionx"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://ict.eu/nl/" target="_blank" class="partner-box partner-box-ict"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://newnexus.nl/" target="_blank" class="partner-box partner-box-newnexus"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="http://www.4dotnet.nl/" target="_blank" class="partner-box partner-box-4dotnet"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="https://www.axians.nl/" target="_blank" class="partner-box partner-box-axians"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://www.quintor.nl/" target="_blank" class="partner-box partner-box-quintor"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://www.vitas.nl/" target="_blank" class="partner-box partner-box-vitas"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://www.getthere.nl/" target="_blank" class="partner-box partner-box-getthere"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="https://www.rdw.nl/" target="_blank" class="partner-box partner-box-rdw"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4">
+                    <h3 class="section-title">Locatie</h3>
+                    <address>
+                        <p>
+                            Best Western Plus Hotel Groningen Plaza<br />
+                            Laan Corpus den Hoorn 300<br />
+                            9728 JT<br />
+                            Groningen
+                        </p>
+                    </address>
+                </div>
+                <div class="col-sm-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.6883264237285!2d6.561690415378421!3d53.18757059429388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c832a3526500a9%3A0x89867224e12d6725!2sBest+Western+Plus+Hotel+Groningen+Plaza!5e0!3m2!1snl!2snl!4v1552504046879"
+                        width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sessions" class="section sessions">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">Sessies</h3>
+                </div>
+            </div>
+            <div id="devopsutopia" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">DevOps Utopia</h4>
+                    <h5>Wouter de Kort / 10:00 - 10:45 / Auditorium</h5>
+                    <p>
+                        Software has eaten the world. Tegenwoordig heeft de manier waarop je software bouwt een directe invloed op hoe succesvol je als organisatie bent. Door moderne technieken te gebruiken zoals Kanban, Lean, distributed version control, continuous integration, continuous delivery, geautomatiseerd testen, ingebouwde security checks, feature flags en real-time monitoring breng je je team en je organisatie naar het volgende niveau. In deze keynote geeft Wouter je een overzicht van hoe DevOps Utopia er uit ziet, wat het kan doen voor je team en hoe je tools als GitHub en Azure DevOps kunt inzetten om dit te bereiken.
+                    </p>
+                </div>
+            </div>
+            <div id="advancedgit" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Advanced Git and Git workflows</h4>
+                    <h5>Mart de Graaf / 11:15 - 12:00 / Auditorium</h5>
+                    <p>
+                        Wanneer je vastloopt met git, kloon je de repository toch niet opnieuw? In mijn presentatie hoop
+                        ik je uit te leggen wat git voor je doet en wat je moet doen om git goed te gebruiken. Daarnaast
+                        zal ik wat git workflows behandelen en welke afspraken je binnen je team kan maken.
+                    </p>
+                </div>
+            </div>
+            <div id="aincs" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Architecting real life solutions with AI & Cognitive Services</h4>
+                    <h5>Alex de Groot / 11:15 - 12:00 / Conferentiezaal I</h5>
+                    <p>
+                        The Netflixes of this world talk about Neural Networks, Machine Learning & Cognitive Services, but you are still building that same enterprise app. And guess what... you don't have the time to get acquainted with this new technology. Wouldn't it be nice if you simply can drag 'n drop these new capabilities when you have the real business case? And by the way... how to handle this business case?
+                        During this talks I go in-depth on how to integrate these new capabilities into your carefully designed architecture. Based on real life experience I'll explain where you can start, which choices should be made and what knowledge you need to enable yourself to use AI.
+                    </p>
+                </div>
+            </div>
+            <div id="graphql" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Power to the client with GraphQL</h4>
+                    <h5>Bouwe Westerdijk / 11:15 - 12:00 / Conferentiezaal II</h5>
+                    <p>
+                        In een wereld waarin we data aan steeds meer verschillende applicaties ter beschikking stellen met elk hun eigen behoeftes wordt de vraag naar flexibele API's groter. GraphQL voorziet in die behoefte.
+                    </p>
+                    <p>
+                        Bouwe neemt je in deze praktische sessie mee op ontdekkingstocht in de wondere wereld van GraphQL. Wat is GraphQL en hoe verhoudt deze snel opkomende techniek zich tot REST? Wat kun je ermee en wanneer kies je GraphQL?
+                    </p>
+                    <p>
+                        Aan de hand van een React applicatie demonstreert hij de flexibiliteit van GraphQL in de praktijk.
+                    </p>
+                </div>
+            </div>
+            <div id="sportanalytics" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Sport Analytics</h4>
+                    <h5>Jasper Diefenbach / 13:00 - 13:45 / Auditorium</h5>
+                    <p>
+                        Als trotse hoofdsponsor van het Nederlands Dames Volleybalteam draagt ilionx het volleybal een
+                        warm hart toe. Sinds 2018 wordt er intensief samengewerkt met de Nederlandse Volleybalbond
+                        (Nevobo) om uitgebreidere en geavanceerde data-analyses mogelijk te maken. De Nevobo zorgt voor
+                        de datavoorziening, ilionx voor het dataplatform, dataverwerking, rapportages en analyses.
+                    </p>
+                    <p>
+                        De state-of-the-art technieken die hiervoor gebruikt worden door het Sports Analytics Team
+                        kunnen ook toegepast worden in het bedrijfsleven. De niet-commerciële insteek van de sponsordeal
+                        maakt het mogelijk om te expirimenteren met de nieuwste producten binnen de Microsoft Azure
+                        omgeving en deze door te ontwikkelen om ze uiteindelijk in de markt te kunnen gebruiken.
+                    </p>
+                    <p>
+                        Zo is er expertise opgebouwd in (o.a.)
+                        <ul>
+                            <li>De nieuwste ETL (Extract, Transform, Load) tool binnen Azure: DataBricks</li>
+                            <li>PowerBI rapportages en apps</li>
+                            <li>Machine Learning analyses met Python in Azure Notebooks</li>
+                            <li>Beeldanalyse met behulp van de Custom Vision API van Microsoft</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div id="xr" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Handenvrij en collaboratief werken met XR</h4>
+                    <h5>Saskia Groenewegen / 13:00 - 13:45 / Conferentiezaal I</h5>
+                    <p>
+                        Van samenwerken in VR (met 20 personen) tot handenvrij werken met AR wanneer het ertoe doet - deze talk presenteert een aantal praktijkvoorbeelden uit de gezondheidszorg, de industrie en de publieke sector waar Virtual, Augmented en Mixed Reality het verschil hebben gemaakt. We gaan het hebben over de uitdagingen die we tegen kwamen, bespreken wat we hebben geleerd en vertellen over onze visie voor de toekomst.
+                    </p>
+                </div>
+            </div>
+            <div id="dapr" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Introductie: Distributed Application Runtime (Dapr)</h4>
+                    <h5>Eelco Koster / 13:00 - 13:45 / Conferentiezaal II</h5>
+                    <p>
+                        Dapr is een, door Microsoft ontwikkeld, open-source framework dat een set aan bouwstenen voor
+                        microservices levert voor gedistribueerde applicaties. Die bouwstenen voor bijvoorbeeld pub/sub,
+                        state management, service discovery en triggers kunnen op iedere infrastructuur draaien en zijn
+                        programmeertaal onafhankelijk te gebruiken. In deze introductie sessie leg ik uit hoe Dapr werkt
+                        en hoe je het kunt toepassen om een schaalbare microservice architectuur te bouwen.
+                    </p>
+                </div>
+            </div>
+            <div id="openfaas" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Serverless functions everywhere with OpenFaas</h4>
+                    <h5>Erwin Staal / 14:00 - 14:45 / Auditorium</h5>
+                    <p>
+                        Serverless is a relatively new offering that is hard to miss nowadays and you’ve probably
+                        already heard a lot about it. OpenFaaS is a framework for building Serverless applications. It
+                        makes it really simple to turn anything into a serverless function that runs on Linux or Windows
+                        through Docker Swarm or Kubernetes. By using one of these orchestrators you can now run
+                        serverless functions on your own private cloud or in any public cloud such as Azure by using
+                        AKS. And since it’s based on Docker containers it doesn’t matter if you want to use Go, Java,
+                        Python, C#, Django, ASP.NET Core, or anything else. In this session I’ll introduce you to
+                        serverless and OpenFaas. We will see how simple it is to get OpenFaas up and running and deploy
+                        your first function. We will dive into a few ways to trigger your functions, look at
+                        authentication and secrets and see how we can monitor them using Open-source tooling.
+                    </p>
+                </div>
+            </div>
+            <div id="nomoresecrets" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">No more secrets! Securing Azure cloud applications using managed
+                        identities</h4>
+                    <h5>Tjeerd-Menno Douma / 14:00 - 14:45 / Conferentiezaal I</h5>
+                    <p>
+                        Het beheren van “secrets” als database connection strings, access keys en credentials kan in
+                        cloud applicaties een flinke uitdaging zijn. Zeker wanneer de cloud applicatie uit een groot
+                        aantal verschillende services bestaat. Deze “secrets” veilig houden is belangrijk want het
+                        lekken van deze “secrets” zou zo maar zeer ernstige gevolgen kunnen hebben. In deze sessie leer
+                        je hoe met Azure Managed Identity je cloud applicatie kunt beveiligen zonder gebruik te hoeven
+                        maken van “secrets”.
+                    </p>
+                </div>
+            </div>
+            <div id="orleans" class="row">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Process IoT data with Microsoft Orleans</h4>
+                    <h5>Andre Broers / 14:00 - 14:45 / Conferentiezaal II</h5>
+                    <p>
+                        To manage the energy transition we need to process a lot of data in a scalable solution. In this
+                        presentation I will show how we use the actor pattern to aggregate energy data from domestic
+                        smartmeters. I will show the actor pattern principles and how to implement it in the Dotnet Core
+                        Microsoft Orleans framework.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speaker_bio" class="section speaker_bio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">Info Sprekers</h3>
+                </div>
+            </div>
+            <div id="wouterdekort" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Wouter de Kort</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left"
+                            src="assets/images/speakers/Wouter_de_Kort-sq.png">
+                    </figure>
+                    <p>
+                        Wouter de Kort werkt als lead architect en consultant bij Sogeti. Hij helpt organisaties om betere software te bouwen op een betere manier. Wouter heeft zich gespecialiseerd in Agile, DevOps en Cloud Native software ontwikkeling. Wouter heeft het boek DevOps on the Microsoft Stack geschreven en nog wat andere boeken. Hij is een Microsoft MVP en een ALM Ranger. Je kunt hem bereiken op Twitter (@wouterdekort), via zijn blog op wouterdekort.com en op de conferenties waar Wouter spreekt.
+                    </p>
+                </div>
+            </div>
+            <div id="martdegraaf" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Mart de Graaf</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left"
+                            src="assets/images/speakers/Mart_de_Graaf.jpg">
+                    </figure>
+                    <p>
+                        Mart de Graaf is werkzaam als Fullstack ontwikkelaar bij Sogeti. Mart heeft de Git presentatie
+                        ook al gehouden bij de RDW, Sogeti en op NoorderTest 2019.
+                    </p>
+                </div>
+            </div>
+            <div id="alexdegroot" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Alex de Groot</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left"
+                            src="assets/images/speakers/Alex_de_Groot.jpg">
+                    </figure>
+                    <p>
+                        Alex is a highly enthusiastic person with 12+ years experience creating successful (software) products at ISVs. His contagious source of positive energy mixed with his experience allows him to blend cutting edge technology with innovative products. Currently he mainly focusses himself on Architecting for DevOps, Artificial Intelligence and next-gen UX such as Unity & Cognitive Services.
+                    </p>
+                </div>
+            </div>
+            <div id="bouwewesterdijk" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Bouwe Westerdijk</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left"
+                            src="assets/images/speakers/Bouwe_Westerdijk.jpg">
+                    </figure>
+                    <p>
+                        Bouwe is software engineer bij New Nexus met 20 jaar ervaring in het bouwen van front- en backends in .NET en JavaScript. Nieuwe kennis opdoen vindt hij het mooiste dat er is. Het delen ervan is volgens hem de beste manier om ook zelf continu in ontwikkeling te blijven. Hij geeft workshops en trainingen aan collega’s, bij klanten en op meetups. Enthousiasme gegarandeerd!
+                    </p>
+                </div>
+            </div>
+            <div id="jasperdiefenbach" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Jasper Diefenbach</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left"
+                            src="assets/images/speakers/JasperDiefenbach-sq.jpg">
+                    </figure>
+                    <p>
+                        Jasper is ex-international en aanvoerder van het Nederlands volleybalteam. Tijdens zijn carriëre
+                        heeft hij een studie Econometrie afgerond. Zijn interesse voor sport en kennis van data komen
+                        samen bij Sport Analytics, data analyse in de sport. Hij praat u graag bij over de laatste
+                        ontwikkelingen in de sportwereld en welke lessen er vanuit de sport geleerd kunnen worden in het
+                        bedrijfsleven.
+                    </p>
+                </div>
+            </div>
+            <div id="saskiagroenewegen" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Saskia Groenewegen</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left"
+                            src="assets/images/speakers/SaskiaGroenewegen.png">
+                    </figure>
+                    <p>
+                        Saskia studeerde lang geleden informatica en virtual reality. Na een carrière in R&D is ze momenteel een software-architect bij Ordina, waar ze het VR / AR-team leidt.
+                        Saskia onderzoekt graag opkomende technologieën en ontdekt het grote potentieel van Virtual, Augmented en Mixed Reality met klanten.
+                        Ze is een commissielid van SIGGRAPH, de Mixed Reality User Group en verschillende wetenschappelijke conferenties.
+                    </p>
+                </div>
+            </div>
+            <div id="eelcokoster" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Eelco Koster</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left" src="assets/images/speakers/EelcoKoster.jpg">
+                    </figure>
+                    <p>
+                        Eelco Koster is werkzaam als Cloud architect bij Vitas. In deze rol adviseert en ondersteunt hij
+                        klanten bij het ontwerpen, bouwen en migreren van applicaties op en naar het Microsoft Azure
+                        platform.
+                    </p>
+                </div>
+            </div>
+            <div id="erwinstaal" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Erwin Staal</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left" src="assets/images/speakers/ErwinStaal.jpg">
+                    </figure>
+                    <p>
+                        Erwin Staal werkt als Software Engineer en ALM Consultant bij 4DotNet in Meppel en wordt van
+                        daaruit gedetacheerd. Hij verdiept zich graag in de nieuwste technieken en werkt momenteel veel
+                        met ASP.Net WebAPI en MVC. Als ALM Consultant helpt Erwin bedrijven met het implementeren van
+                        Continuous Delivery en coacht teams op het gebied van Scrum en Agile. Je kunt Erwin volgen op <a
+                            href="https://twitter.com/erwin_staal" target="_blank">@erwin_staal</a>.
+                    </p>
+                </div>
+            </div>
+            <div id="tjeerdmennodouma" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Tjeerd-Menno Douma</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left" src="assets/images/speakers/TjeerdMennoDouma.jpg">
+                    </figure>
+                    <p>
+                        Met een drive om constant te willen verbeteren, een gezonde dosis passie voor techniek, moderne
+                        ontwikkel methodes en een duidelijke visie leidt Tjeerd-Menno de ontwikkeling van een cloud
+                        native applicatie waarmee Iddink Group de markt voor leermiddelen in het MBO bedient. Gedurende
+                        zijn carrière als software engineer in de consultancy wereld heeft Tjeerd-Menno zich ontwikkelt
+                        tot software architect met een brede kennis binnen het Microsoft ecosysteem en een sterke
+                        voorkeur voor oplossingen in Azure. Na een overstap naar Iddink Group iets meer dan een jaar
+                        geleden is Tjeerd-Menno tegenwoordig Solution Architect en SCRUM master van een van de ontwikkel
+                        teams binnen Iddink Group.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">devNetNoord 2020</p>
+                    <ul class="social-block">
+                        <li>
+                            <a href="https://www.meetup.com/devnetnoord" target="_blank"><img
+                                    src="assets/images/meetup.png" /></a>
+                        </li>
+                        <li>
+                            <a href="https://speakerdeck.com/devnetnoord" target="_blank"><img
+                                    src="assets/images/sliderdeck.png" /></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/devNetNoord" target="_blank"><i
+                                    class="ion-social-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/devnetnoord" target="_blank"><i
+                                    class="ion-social-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/devnetnoord/" target="_blank"><i
+                                    class="ion-social-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/groups/4056831" target="_blank"><i
+                                    class="ion-social-linkedin-outline"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@devnetnoord.nl"><i class="ion-email"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
