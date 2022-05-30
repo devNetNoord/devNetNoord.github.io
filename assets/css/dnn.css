@@ -4,6 +4,9 @@
 #site-header.hotelgroningenplaza {
   background-image: url(../images/backgrounds/vig-hote-groningen-plaza-1400x900.jpg);
 }
+.site-branding {
+  margin-top: 0;
+}
 .intro .alert {
   margin-top: 2em;
   text-transform: none;
@@ -61,7 +64,7 @@
   text-align: center;
   transform: translateX(-50%);
 }
-.schedule {
+.schedule, .location, .speaker_bio {
   background-color: #f8f8f8;
 }
 .schedule-box-session {
@@ -140,6 +143,9 @@
 }
 .partner .partner-box-ict {
   background: url(../images/partner/ICT.png) no-repeat center center/contain;
+}
+.partner .partner-box-xprtz {
+  background: url(../images/partner/Xprtz.png) no-repeat center center/contain;
 }
 .social-block img {
   margin-top: -14px;
