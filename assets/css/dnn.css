@@ -150,3 +150,45 @@
 .social-block img {
   margin-top: -14px;
 }
+
+/* dialog */
+
+.sponsor-informatie {
+  font-size: 16px;
+  margin: 6px;
+  vertical-align: super;
+}
+.dialog-container {
+  background-color: rgba(0,0,0,.75);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  transition: opacity 200ms;
+  top: 0;
+  z-index: 1040;
+}
+.dialog-container:target {
+  opacity: 1;
+  pointer-events: all;
+}
+.dialog {
+  background-color: #fff;
+  bottom: 60px;
+  left: 50%;
+  padding: 25px 50px;
+  position: absolute;
+  top: 60px;
+  transform: translateX(-50%);
+  width: 60%;
+}
+.dialog-close {
+  position: absolute;
+  right: 30px;
+}
+.dialog-content {
+  height: calc(100% - 62px);
+  overflow-y: auto;
+}
