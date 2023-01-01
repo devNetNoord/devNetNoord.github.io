@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/dnn.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
 
     <link rel="shortcut icon" href="assets/images/logo-2016.sqr.png">
 </head>
@@ -169,10 +170,7 @@
                     </address>
                 </div>
                 <div class="col-sm-9">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.6883264237285!2d6.561690415378421!3d53.18757059429388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c832a3526500a9%3A0x89867224e12d6725!2sBest+Western+Plus+Hotel+Groningen+Plaza!5e0!3m2!1snl!2snl!4v1552504046879"
-                        frameborder="0" style="border:0;width:600px;height:450px;max-width:100%"
-                        allowfullscreen></iframe>
+                    <div id="map" style="width:600px;height:450px;max-width:100%"></div>
                 </div>
             </div>
         </div>
@@ -265,6 +263,24 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script type="text/html" id="popup-hotelgroningenplaza">
+        <b>Hotel Groningen Plaza</b><br/>
+        Laan Corpus den Hoorn 300<br/>
+        9728 JT Groningen<br/>
+        <br/>
+        <a href="https://hotelgroningenplaza.nl/" target="_blank">https://hotelgroningenplaza.nl/</a>
+    </script>
+    <script>
+        var locationHotelGroningenPlaza = [53.1870723, 6.5635828];
+        var map = L.map('map').setView(locationHotelGroningenPlaza, 13);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        var marker = L.marker(locationHotelGroningenPlaza).addTo(map);
+        marker.bindPopup(document.getElementById('popup-hotelgroningenplaza').innerHTML).openPopup();
+    </script>
 </body>
 
 </html>
