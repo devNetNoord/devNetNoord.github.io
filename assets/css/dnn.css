@@ -87,6 +87,12 @@
   transition: all 1s;
   height: 100px;
 }
+.partner .partner-box.main-partner {
+  width: 250px;
+}
+.partner .partner-box.event-partner {
+  width: 150px;
+}
 .partner .partner-box:hover {
   filter: none;
 }
