@@ -7,9 +7,36 @@
 .site-branding {
   margin-top: 0;
 }
+.intro {
+  overflow: clip;
+}
 .intro .alert {
   margin-top: 2em;
   text-transform: none;
+}
+.intro #gratis {
+  background-color: yellow;
+  border: 4px dashed black;
+  bottom: 12px;
+  box-shadow: 0 0px 18px black;
+  color: rgba(0,0,0,.7);
+  font-size: 20px;
+  font-weight: bold;
+  left: -55px;
+  line-height: 3em;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 200px;
+}
+.intro #gratis::before {
+  border: 7px solid yellow;
+  bottom: -8px;
+  content: ' ';
+  left: -8px;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  z-index: -1;
 }
 .navbar-solid .site-branding .logo img {
   max-height: 44px;
