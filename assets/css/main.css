@@ -665,3 +665,24 @@ h6 {
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
 }
+
+
+.session-flag {
+  position: absolute;
+  width: 2em;
+  right: 0.5em;
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+
+.session-flag {
+  position: absolute;
+  width: 2em;
+  right: 0.3em;
+  top: 0.3em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 4px;
+}
