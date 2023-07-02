@@ -686,3 +686,12 @@ h6 {
   border-radius: 5px;
   padding: 4px;
 }
+
+.button-container {
+text-align: center;
+}
+
+.sessionize-button {
+	width: 200px;
+
+}
