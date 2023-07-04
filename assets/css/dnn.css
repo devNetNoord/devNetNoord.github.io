@@ -231,3 +231,9 @@
   height: calc(100% - 62px);
   overflow-y: auto;
 }
+
+@media (max-width: 767px) {
+  .dialog {
+    width: 100%;
+  }
+}

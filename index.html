@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/dnn.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
 
     <link rel="shortcut icon" href="assets/images/logo-2016.sqr.png">
 </head>
@@ -342,10 +343,7 @@
                     </address>
                 </div>
                 <div class="col-sm-9">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9559.75381123297!2d6.5507529!3d53.20102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9161e84076f06bf!2sGasunie+Undergr.+Stor.+GUUS+BV!5e0!3m2!1snl!2snl!4v1514661612870"
-                        frameborder="0" style="border:0;width:600px;height:450px;max-width:100%"
-                        allowfullscreen></iframe>
+                    <div id="map" style="width:600px;height:450px;max-width:100%"></div>
                 </div>
             </div>
         </div>
@@ -521,6 +519,25 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script type="text/html" id="popup-gasunie">
+        <b>Gasunie</b><br/>
+        Concourslaan 17<br/>
+        9727 KC<br/>
+        Groningen<br/>
+        <br/>
+        <a href="https://www.gasunie.nl/" target="_blank">https://www.gasunie.nl/</a>
+    </script>
+    <script>
+        var locationGasunie = [53.20115773049817, 6.551395500466316];
+        var map = L.map('map').setView(locationGasunie, 13);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        var marker = L.marker(locationGasunie).addTo(map);
+        marker.bindPopup(document.getElementById('popup-gasunie').innerHTML).openPopup();
+    </script>
 </body>
 
 </html>
