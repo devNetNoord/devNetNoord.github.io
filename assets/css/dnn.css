@@ -247,3 +247,17 @@
     width: 100%;
   }
 }
+
+.session-flag {
+  position: absolute;
+  width: 2em;
+  right: 0.3em;
+  top: 0.3em;
+  padding: 4px;
+}
+.button-container {
+  text-align: center;
+}
+.sessionize-button {
+	width: 200px;
+}
