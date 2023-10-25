@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>devNetNoord</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/dnn.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+
+    <link rel="shortcut icon" href="/assets/images/logo-2016.sqr.png">
+</head>
+
+<body data-spy="scroll" data-target="#site-nav">
+    <nav data-scroll-header id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="#">
+
+                        <!-- logo image  -->
+                        <img src="/assets/images/logo-2016.w.png" alt="Logo">
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li><a data-scroll href="#speakers">Sprekers</a></li>
+                    <li><a data-scroll href="#schedule">Agenda</a></li>
+                    <!-- <li><a data-scroll href="#call-for-sessions">Call for sessions</a></li> -->
+                    <li><a data-scroll href="#partner">Sponsors</a></li>
+                    <li><a data-scroll href="#location">Locatie</a></li>
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center gasunie">
+        
+    </header>
+
+    <div class="wifi-data">
+        <h2>WiFi gegevens</h2>
+        <div style="text-align: center; margin: 2em;">
+            Bij de GasUnie hebben we geen toegang tot een guest WiFi. <br/>
+            <br/>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=jXTzE4PS5RKtpwKp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br/><br/>
+            Tijdens DevCampNoord 2024 vind je hier de WiFi gegevens.
+        </div>
+    </div>
+    
+    <!-- script -->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script type="text/html" id="popup-gasunie">
+        <b>Gasunie</b><br/>
+        Concourslaan 17<br/>
+        9727 KC<br/>
+        Groningen<br/>
+        <br/>
+        <a href="https://www.gasunie.nl/" target="_blank">https://www.gasunie.nl/</a>
+    </script>
+    <script>
+        var locationGasunie = [53.20115773049817, 6.551395500466316];
+        var map = L.map('map').setView(locationGasunie, 13);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        var marker = L.marker(locationGasunie).addTo(map);
+        marker.bindPopup(document.getElementById('popup-gasunie').innerHTML).openPopup();
+    </script>
+</body>
+
+</html>

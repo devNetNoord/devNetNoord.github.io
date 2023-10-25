@@ -665,3 +665,19 @@ h6 {
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
 }
+
+.wifi-data {
+  position: absolute;
+  top: 7em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFF;
+  padding: 1em;
+}
+
+@media (min-width: 768px) {
+  .wifi-data {
+    position: absolute; min-width: 500px; width: 50%; height: 50%; margin-left: 25%; margin-top: 10%; color: #000; background-color: #FFF; opacity: 0.9
+  }
+}
