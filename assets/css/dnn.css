@@ -204,6 +204,12 @@
 .partner .partner-box-capteur {
   background: url(../images/partner/Capteur.png) no-repeat center center/contain;
 }
+
+/* social */
+
+.social-block {
+  font-size: 1.75em;
+}
 .social-block img {
   margin-top: -14px;
 }
