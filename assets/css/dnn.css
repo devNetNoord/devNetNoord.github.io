@@ -4,6 +4,14 @@
 #site-header.hotelgroningenplaza {
   background-image: url(../images/backgrounds/vig-hote-groningen-plaza-1400x900.jpg);
 }
+.site-header h1, .site-header h2, .site-header h3 {
+  text-shadow: 0 0 5px black;
+}
+.site-header h3 {
+  color: #4BADE9;
+  font-weight: bold;
+  margin-top: 2em;
+}
 .site-header .alert {
   bottom: 2em;
   left: 2em;
