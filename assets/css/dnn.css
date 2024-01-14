@@ -4,6 +4,10 @@
 #site-header.hotelgroningenplaza {
   background-image: url(../images/backgrounds/vig-hote-groningen-plaza-1400x900.jpg);
 }
+#site-header.kinepolis {
+  background-image: url(../images/backgrounds/kinepolis-groningen.jpg);
+}
+
 .site-header h1, .site-header h2, .site-header h3 {
   text-shadow: 0 0 5px black;
 }
