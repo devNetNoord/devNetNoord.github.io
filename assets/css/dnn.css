@@ -223,10 +223,13 @@
 a.sponsor-informatie {
   font-size: 16px;
   margin: 6px;
-  /* vertical-align: super; */
+  vertical-align: super;
 }
 p.sponsor-informatie {
   text-align: center;
+}
+p.sponsor-informatie a.ion-information-circled::before {
+  margin-right: .5em;
 }
 .dialog-container {
   background-color: rgba(0,0,0,.75);
