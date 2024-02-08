@@ -208,6 +208,9 @@
 .partner .partner-box-capteur {
   background: url(../images/partner/Capteur.png) no-repeat center center/contain;
 }
+.partner .partner-box-elabnext {
+  background: url(../images/partner/eLabNext.png) no-repeat center center/contain;
+}
 
 /* social */
 
