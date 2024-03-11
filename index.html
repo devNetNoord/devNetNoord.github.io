@@ -1128,22 +1128,25 @@
     <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-    <script type="text/html" id="popup-hotelgroningenplaza">
-        <b>Hotel Groningen Plaza</b><br/>
-        Laan Corpus den Hoorn 300<br/>
-        9728 JT Groningen<br/>
+    <script type="text/html" id="popup-kinepolis">
+        <b>Kinepolis Groningen</b><br />
+        Boumaboulevard 53<br />
+        9723 ZS Groningen<br />
         <br/>
-        <a href="https://hotelgroningenplaza.nl/" target="_blank">https://hotelgroningenplaza.nl/</a>
+        <a href="https://kinepolis.nl/bioscopen/kinepolis-groningen/info/" target="_blank">https://kinepolis.nl/bioscopen/kinepolis-groningen/info/</a><br/>
+        <br/>
+        <a href="https://www.openstreetmap.org/search?query=kinepolis%20groningen#map=19/53.20577/6.59049" target="_blank">🗺️ Open grote kaart</a> | 
+        <a href="https://www.openstreetmap.org/directions?from=&to=53.20575%2C6.59050#map=19/53.20577/6.59049" target="_blank">🧭 Plan je route</a>
     </script>
     <script>
-        var locationHotelGroningenPlaza = [53.1870723, 6.5635828];
-        var map = L.map('map').setView(locationHotelGroningenPlaza, 13);
+        var locationKinepolis = [53.20577, 6.59049];
+        var map = L.map('map').setView(locationKinepolis, 13);
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
-        var marker = L.marker(locationHotelGroningenPlaza).addTo(map);
-        marker.bindPopup(document.getElementById('popup-hotelgroningenplaza').innerHTML).openPopup();
+        var marker = L.marker(locationKinepolis).addTo(map);
+        marker.bindPopup(document.getElementById('popup-kinepolis').innerHTML).openPopup();
     </script>
 </body>
 
