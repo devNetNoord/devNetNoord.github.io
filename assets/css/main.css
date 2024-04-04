@@ -677,6 +677,10 @@ h6 {
   padding-bottom: 25em;
 }
 
+.rick-roll {
+  width: 300px;
+}
+
 @media (min-width: 768px) {
   .wifi-data {
     position: absolute; min-width: 500px; width: 50%; height: 50%; margin-left: 25%; margin-top: 10%; color: #000; background-color: #FFF; opacity: 0.9
