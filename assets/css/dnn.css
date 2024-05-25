@@ -64,26 +64,29 @@
   max-height: 44px;
   margin: 6px 0;
 }
-.schedule-box-coffee, .schedule-box-dinner, .schedule-box-drinks, .schedule-box-lunch {
-  background-size: cover;
-  background-position-y: center;  
+
+/** CfS **/
+
+.call-for-speakers {
+  background-color: #4BADE9;
 }
-.schedule-box-coffee {
-  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
-                    url(../images/backgrounds/coffee.jpg);
+.call-for-speakers, .call-for-speakers a, .call-for-speakers h3 {
+  color: white;
 }
-.schedule-box-dinner {
-  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
-                    url(../images/backgrounds/dinner.jpg);
+.call-for-speakers a {
+  font-weight: bold;
 }
-.schedule-box-drinks {
-  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
-                    url(../images/backgrounds/drinks.jpg);
+.sessionize-button {
+	border: 2px solid transparent;
+  width: 200px;
 }
-.schedule-box-lunch {
-  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
-                    url(../images/backgrounds/lunch.jpg);
+.sessionize-button:hover {
+	border-color: white;
 }
+
+
+/** Speakers **/
+
 .speaker img {
   width: 255px;
   filter: grayscale(100%);
@@ -105,13 +108,28 @@
   width: 200px;
   margin: 0 20px 20px 0;
 }
-.room {
-  bottom: 10px;
-  color: rgba(255, 255, 255, .45);
-  left: 50%;
-  position: absolute;
-  text-align: center;
-  transform: translateX(-50%);
+
+/** Schedule **/
+
+.schedule-box-coffee, .schedule-box-dinner, .schedule-box-drinks, .schedule-box-lunch {
+  background-size: cover;
+  background-position-y: center;  
+}
+.schedule-box-coffee {
+  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
+                    url(../images/backgrounds/coffee.jpg);
+}
+.schedule-box-dinner {
+  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
+                    url(../images/backgrounds/dinner.jpg);
+}
+.schedule-box-drinks {
+  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
+                    url(../images/backgrounds/drinks.jpg);
+}
+.schedule-box-lunch {
+  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
+                    url(../images/backgrounds/lunch.jpg);
 }
 .schedule, .location, .speaker_bio {
   background-color: #f8f8f8;
@@ -127,6 +145,24 @@
   text-transform: none;
   color: #bbb;
 }
+.session-flag {
+  position: absolute;
+  width: 2em;
+  right: 0.3em;
+  top: 0.3em;
+  padding: 4px;
+}
+.room {
+  bottom: 10px;
+  color: rgba(255, 255, 255, .45);
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+/** Partners **/
+
 .partner {
   background-color: #fff;
 }
@@ -212,7 +248,7 @@
   background: url(../images/partner/eLabNext.png) no-repeat center center/contain;
 }
 
-/* social */
+/** Social **/
 
 .social-block {
   font-size: 1.75em;
@@ -276,7 +312,8 @@
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
-/* dialog */
+
+/** Sponsor Informatie **/
 
 a.sponsor-informatie {
   font-size: 16px;
@@ -330,16 +367,8 @@ p.sponsor-informatie a.ion-information-circled::before {
   }
 }
 
-.session-flag {
-  position: absolute;
-  width: 2em;
-  right: 0.3em;
-  top: 0.3em;
-  padding: 4px;
-}
+
 .button-container {
   text-align: center;
 }
-.sessionize-button {
-	width: 200px;
-}
+
