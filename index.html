@@ -46,7 +46,9 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <!-- navigation menu -->
+                    <!--
                     <li><a data-scroll href="#call-for-speakers">Call for Speakers</a></li>
+                    -->
                     <li><a data-scroll href="#speakers">Sprekers</a></li>
                     <li><a data-scroll href="#schedule">Agenda</a></li>
                     <li><a data-scroll href="#partner">Sponsors</a></li>
@@ -63,10 +65,10 @@
 
             <h1>devNetNoord</h1>
 
-            <a class="btn btn-white" data-scroll href="#call-for-speakers">Call for Speakers</a>
             <!--
-            <a class="btn btn-white" href="-- TBD --" target="_blank">Inschrijven</a>
+            <a class="btn btn-white" data-scroll href="#call-for-speakers">Call for Speakers</a>
             -->
+            <a class="btn btn-white" href="https://devnetnoord-2024.eventbrite.nl/" target="_blank">Inschrijven</a>
 
             <div id="gratis">gratis</div>
         </div>
@@ -77,6 +79,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="section-title-centered">Call for Speakers</h3>
+                    <h5 class="text-center">Sluit op 30 juni 12:00</h5>
+                    <br/>
                     Voor de 2024 editie van devNetNoord zijn we op zoek naar sprekers. Heb jij een interessante sessie met een onderwerp wat interessant is voor ontwikkelaars op de Microsoft stack, vul dan onze <a href="https://sessionize.com/devnetnoord-2024/"  target="_blank">Sessionize</a> in en meld je sessie aan.<br/>
                     <br/>
                     De sessies op devNetNoord duren 50 minuten (incl. Q&A), zijn doorgaans in het Nederlands en hebben bij voorkeur een praktische insteek zodat de deelnemers deze kennis direct kunnen gaan toepassen in hun dagelijks werk.<br/>
@@ -390,6 +394,23 @@
         }).addTo(map);
         var marker = L.marker(locationGasunie).addTo(map);
         marker.bindPopup(document.getElementById('popup-gasunie').innerHTML).openPopup();
+    </script>
+    <script>
+        (function() {
+            var cfsCloseDate = new Date(2024, 5, 30, 12, 0, 0); // June 30, 2024, 12:00:00
+            function hideDiv() {
+                var now = new Date();
+                if (now >= cfsCloseDate) {
+                    var div = document.getElementById('call-for-speakers');
+                    if (div) {
+                        div.style.display = 'none';
+                    }
+                }
+            }
+
+            hideDiv();
+            setInterval(hideDiv, 60000);
+        })();
     </script>
 </body>
 
