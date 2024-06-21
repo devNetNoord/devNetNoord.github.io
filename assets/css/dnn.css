@@ -248,7 +248,8 @@
   background: url(../images/partner/eLabNext.png) no-repeat center center/contain;
 }
 .partner .partner-box-chipsoft {
-  background: url(../images/partner/ChipSoftLogo.png) no-repeat center center/contain;
+  background: url(../images/partner/ChipSoft.svg) no-repeat center center/contain;
+  transform: scale(1.4);
 }
 
 /** Social **/
