@@ -113,7 +113,7 @@
 
 .schedule-box-coffee, .schedule-box-dinner, .schedule-box-drinks, .schedule-box-lunch {
   background-size: cover;
-  background-position-y: center;  
+  background-position-y: center;
 }
 .schedule-box-coffee {
   background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)),
@@ -183,6 +183,9 @@
 }
 .partner .partner-box-4dotnet {
   background: url(../images/partner/4DotNet.png) no-repeat center center/contain;
+}
+.partner .partner-box-duo {
+  background: url(../images/partner/DUO.png) no-repeat center center/contain;
 }
 .partner .partner-box-gasunie {
   background: url(../images/partner/Gasunie.png) no-repeat center center/contain;
@@ -375,4 +378,3 @@ p.sponsor-informatie a.ion-information-circled::before {
 .button-container {
   text-align: center;
 }
-
