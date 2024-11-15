@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>devNetNoord</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/dnn.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+
+    <link rel="shortcut icon" href="assets/images/logo-2016.sqr.png">
+</head>
+
+<body data-spy="scroll" data-target="#site-nav">
+    <nav data-scroll-header id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="#">
+
+                        <!-- logo image  -->
+                        <img src="assets/images/logo-2016.w.png" alt="Logo">
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <!--
+                    <li><a data-scroll href="#call-for-speakers">Call for Speakers</a></li>
+                    <li><a data-scroll href="#speakers">Sprekers</a></li>
+                    <li><a data-scroll href="#schedule">Agenda</a></li>
+                    -->
+                    <li><a data-scroll href="#partner">Sponsors</a></li>
+                    <li><a data-scroll href="#location">Locatie</a></li>
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center kinepolis">
+        <div class="intro">
+
+            <h2>10 april 2024 / Kinepolis Groningen</h2>
+
+            <h1>devCampNoord</h1>
+
+            <!--
+            <a class="btn btn-white" data-scroll href="#call-for-speakers">Call for Speakers</a>
+            -->
+
+            <div id="gratis">gratis</div>
+        </div>
+    </header>
+
+<!--
+    <section id="call-for-speakers" class="section call-for-speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Call for Speakers</h3>
+                    <h5 class="text-center">Sluit op 30 juni 12:00</h5>
+                    <br/>
+                    Voor de 2024 editie van devNetNoord zijn we op zoek naar sprekers. Heb jij een interessante sessie met een onderwerp wat interessant is voor ontwikkelaars op de Microsoft stack, vul dan onze <a href="https://sessionize.com/devnetnoord-2024/"  target="_blank">Sessionize</a> in en meld je sessie aan.<br/>
+                    <br/>
+                    De sessies op devNetNoord duren 50 minuten (incl. Q&A), zijn doorgaans in het Nederlands en hebben bij voorkeur een praktische insteek zodat de deelnemers deze kennis direct kunnen gaan toepassen in hun dagelijks werk.<br/>
+                    <br/>
+                    <div class="button-container">
+                        <a href="https://sessionize.com/devnetnoord-2024/"  target="_blank"><img class="sessionize-button" src="/assets/images/sessionize.png" alt="Call for sessions"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+<!--
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Sprekers</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#{speakerhandle}">
+                                <img alt="{speakername}" class="img-responsive center-block" src="{speakerphoto}">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#{speakerhandle}">{speakername}</a></h4>
+                        <p>{speakerjobtitle}</p>
+                        <ul class="social-block">
+                            {speakersocials}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+<!--
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Agenda</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-coffee">
+                        <div class="time">
+                            9:00
+                        </div>
+                        <h4>Ontvangst met koffie & thee</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Hoofdsponsors</a></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.duo.nl/" target="_blank" class="partner-box partner-box-duo"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.gasunie.nl/" target="_blank" class="partner-box partner-box-gasunie"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.kpn.com/" target="_blank" class="partner-box partner-box-kpn"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="https://www.ordina.nl/" target="_blank" class="partner-box partner-box-ordina"></a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://www.xprtz.net/" target="_blank" class="partner-box partner-box-xprtz"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Jaarsponsors</h3>
+                    <p class="sponsor-informatie">
+                        <a href="#sponsorinformatie" class="ion-information-circled">informatie voor sponsors</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://newnexus.nl/" target="_blank" class="partner-box main-partner partner-box-newnexus"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.vitas.nl/" target="_blank" class="partner-box main-partner partner-box-vitas"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.axians.nl/" target="_blank" class="partner-box main-partner partner-box-axians"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="http://www.4dotnet.nl/" target="_blank" class="partner-box main-partner partner-box-4dotnet"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.getthere.nl/" target="_blank" class="partner-box main-partner partner-box-getthere"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.quintor.nl/" target="_blank" class="partner-box main-partner partner-box-quintor"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="https://www.elabnext.com/" target="_blank" class="partner-box main-partner partner-box-elabnext"></a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://capteur.nl/" target="_blank" class="partner-box main-partner partner-box-capteur"></a>
+                </div>
+            </div>
+            <!--
+            <div class="col-md-12">
+                <h3 class="section-title-centered">Evenementsponsors</h3>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3 class="section-title">Locatie</h3>
+                    <address>
+                        <p>
+                            <b>Kinepolis Groningen</b><br />
+                            Boumaboulevard 53<br />
+                            9723 ZS<br />
+                            Groningen
+                        </p>
+                    </address>
+                </div>
+                <div class="col-sm-9">
+                    <div id="map" style="width:600px;height:450px;max-width:100%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--
+    <section id="sessions" class="section sessions">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title-centered">Sessies</h3>
+                </div>
+            </div>
+            <div id="{sessionhandle}" class="row">
+                <div class="col-sm-12">
+                    <img src="assets/images/flag-nl.png" class="session-flag" title="Nederlands" />
+                    <h4 class="section-title">{sessiontitle}</h4>
+                    <h5>{sessionspeakers} / {sessiontime}</h5>
+                    <p>
+                        {sessiondescription}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+<!--
+    <section id="speaker_bio" class="section speaker_bio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title-centered">Info Sprekers</h3>
+                </div>
+            </div>
+            <div id="{speakerhandle}" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">{speakername}</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left" src="{speakerphoto}">
+                    </figure>
+                    <p>
+                        {speakerbio}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">devNetNoord 2024</p>
+                    <ul class="social-block">
+                        <li><a href="https://www.meetup.com/devnetnoord" target="_blank"><i class="social-meetup"></i></a></li>
+                        <li><a href="https://speakerdeck.com/devnetnoord" target="_blank"><i class="social-speakerdeck"></i></a></li>
+                        <li><a href="https://github.com/devNetNoord" target="_blank"><i class="ion-social-github"></i></a></li>
+                        <li><a href="https://twitter.com/devnetnoord" target="_blank"><i class="social-x"></i></a></li>
+                        <li><a href="https://www.facebook.com/devnetnoord/" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/groups/4056831" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="mailto:info@devnetnoord.nl"><i class="ion-email"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="dialog-container" id="sponsorinformatie">
+        <div class="dialog">
+            <a href="#" class="dialog-close ion-close"></a>
+            <div class="row dialog-title">
+                <h3>Informatie voor sponsors</h3>
+            </div>
+            <div class="row dialog-content">
+                <p>
+                    Wat betekent het om sponsor voor devNetNoord te zijn?
+                    Er zijn 3 sponsorpakketten, afhankelijk van het soort event:
+                    <dl>
+                        <dt>devNetNoord pakket</dt>
+                        <dd>
+                            Een devNetNoord avond event (3 à 4 sessies) kun je sponsoren voor <strong>500 euro</strong>.
+                            Je krijgt als bedrijf hiervoor:
+                            <ol>
+                                <li>Een vermelding (logo + link) op de website devnetnoord.nl</li>
+                                <li>Vermeldingen op social media</li>
+                                <li>Vermelding op de slides tijdens het event</li>
+                                <li>De gelegenheid een spreker te leveren*</li>
+                            </ol>
+                        </dd>
+                        <dt>devCampNoord pakket</dt>
+                        <dd>
+                            Een devCampNoord dag event (ca 11 sessies in 3 tracks) kun je sponsoren voor <strong>1000 euro</strong>.
+                            Je krijgt als bedrijf hiervoor:
+                            <ol>
+                                <li>Alles van het devNetNoord pakket</li>
+                                <li>Een stand nabij de zalen om in contact te komen met het publiek</li>
+                                <li>Goodie leveren voor in de goodiebag</li>
+                            </ol>
+                            <small>NB: Je kunt niet met het devCampNoord pakket een devNetNoord event sponsoren.<br/><br/></small>
+                        </dd>
+                        <dt>Jaarpakket</dt>
+                        <dd>
+                            Wij organiseren jaarlijks één devNetNoord en één devCampNoord event.
+                            Als je devNetNoord een jaar lang wilt sponsoren combineren we het devNetNoord pakket en devCampNoord pakket in een jaarpakket voor <strong>1500 euro</strong>.
+                        </dd>
+                    </dl>
+                    <small>*: Bestuur devNetNoord bepaalt de uiteindelijke programma samenstelling</small>
+                </p>
+                <p>
+                    Meer informatie of vragen: <a href="mailto:info@devnetnoord.nl">info@devnetnoord.nl</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script type="text/html" id="popup-kinepolis">
+        <b>Kinepolis Groningen</b><br />
+        Boumaboulevard 53<br />
+        9723 ZS Groningen<br />
+        <br/>
+        <a href="https://kinepolis.nl/bioscopen/kinepolis-groningen/info/" target="_blank">https://kinepolis.nl/bioscopen/kinepolis-groningen/info/</a>
+    </script>
+    <script>
+        var locationKinepolis = [53.2058582,6.5879191];
+        var map = L.map('map').setView(locationKinepolis, 13);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        var marker = L.marker(locationKinepolis).addTo(map);
+        marker.bindPopup(document.getElementById('popup-kinepolis').innerHTML).openPopup();
+    </script>
+</body>
+
+</html>
