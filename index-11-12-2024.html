@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>devNetNoord</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/dnn.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+
+    <link rel="shortcut icon" href="assets/images/logo-2016.sqr.png">
+</head>
+
+<body data-spy="scroll" data-target="#site-nav">
+    <nav data-scroll-header id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="#">
+
+                        <!-- logo image  -->
+                        <img src="assets/images/logo-2016.w.png" alt="Logo">
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <!--
+                    <li><a data-scroll href="#call-for-speakers">Call for Speakers</a></li>
+                    -->
+                    <li><a data-scroll href="#speakers">Sprekers</a></li>
+                    <li><a data-scroll href="#schedule">Agenda</a></li>
+                    <li><a data-scroll href="#partner">Sponsors</a></li>
+                    <li><a data-scroll href="#location">Locatie</a></li>
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center gasunie">
+        <div class="intro">
+
+            <h2>31 oktober 2024 / Gasunie</h2>
+
+            <h1>devNetNoord</h1>
+
+            <h3 style="
+                padding: .5em;
+                border: 2px solid black;
+                display: inline-block;
+                box-shadow: inset 0 0 19px white;">Tot ziens in op <span style="color:white; margin: 0 1em">10 april 2025</span> bij devCampNoord!</h3>
+
+            <!--
+            <a class="btn btn-white" data-scroll href="#call-for-speakers">Call for Speakers</a>
+            <a class="btn btn-white" href="https://devnetnoord-2024.eventbrite.nl/" target="_blank">Inschrijven</a>
+            -->
+
+            <div id="gratis">gratis</div>
+        </div>
+    </header>
+
+    <!-- <section id="call-for-speakers" class="section call-for-speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Call for Speakers</h3>
+                    <h5 class="text-center">Sluit op 30 juni 12:00</h5>
+                    <br/>
+                    Voor de 2024 editie van devNetNoord zijn we op zoek naar sprekers. Heb jij een interessante sessie met een onderwerp wat interessant is voor ontwikkelaars op de Microsoft stack, vul dan onze <a href="https://sessionize.com/devnetnoord-2024/"  target="_blank">Sessionize</a> in en meld je sessie aan.<br/>
+                    <br/>
+                    De sessies op devNetNoord duren 50 minuten (incl. Q&A), zijn doorgaans in het Nederlands en hebben bij voorkeur een praktische insteek zodat de deelnemers deze kennis direct kunnen gaan toepassen in hun dagelijks werk.<br/>
+                    <br/>
+                    <div class="button-container">
+                        <a href="https://sessionize.com/devnetnoord-2024/"  target="_blank"><img class="sessionize-button" src="/assets/images/sessionize.png" alt="Call for sessions"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Sprekers</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#erwinstaal">
+                                <img alt="Erwin Staal" class="img-responsive center-block" src="https://sessionize.com/image/9d5a-200o200o2-dc-8ec0-4bb0-b1a2-7c4b603830f8.8fa6c36d-b6c3-4ba9-a718-96ce8390c8ab.jpg">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#erwinstaal">Erwin Staal</a></h4>
+                        <p>Azure Architect @ Xebia, Author of 'Azure Infrastructure as Code' | Microsoft MVP</p>
+                        <ul class="social-block">
+                            <li><a href="https://www.linkedin.com/in/erwinstaal/" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href="https://sessionize.com/erwin-staal" target="_blank"><i class="ion-speakerphone"></i></a></li>
+                            <li><a href="https://www.erwinstaal.nl/" target="_blank"><i class="ion-android-globe"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#michaelhompus">
+                                <img alt="" class="img-responsive center-block"
+                                    src="https://sessionize.com/image/0701-200o200o2-shRLSDi2oh8NpDWUYxNJDZ.jpg">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#michaelhompus">Michaël Hompus</a></h4>
+                        <p>Architect @ Info Support | Microsoft MVP</p>
+                        <ul class="social-block">
+                            <li><a href="https://www.linkedin.com/in/mhompus/" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href="https://twitter.com/eNeRGy164" target="_blank"><i class="social-x"></i></a></li>
+                            <li><a href="https://sessionize.com/michael-hompus" target="_blank"><i class="ion-speakerphone"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                            <a data-scroll href="#henrybeen">
+                                <img alt="" class="img-responsive center-block"
+                                    src="https://sessionize.com/image/cfaa-200o200o2-UFJ4cRpkA5pvUar5ynhczk.jpg">
+                            </a>
+                        </figure>
+                        <h4><a data-scroll href="#henrybeen">Henry Been</a></h4>
+                        <p>DevOps & Azure Architect | Microsoft MVP</p>
+                        <ul class="social-block">
+                            <li><a href="mailto:sessionize@henrybeen.nl"><i class="ion-email"></i></a></li>
+                            <li><a href="https://twitter.com/henry_been" target="_blank"><i class="social-x"></i></a></li>
+                            <li><a href="https://sessionize.com/henry-been" target="_blank"><i class="ion-speakerphone"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="speaker">
+                        <figure>
+                          <a data-scroll href="#aranjellema">
+                            <img alt="" class="img-responsive center-block" src="https://sessionize.com/image/78e0-200o200o2-X3JR5hQBp7X1W1yGgWpoZD.jpg">
+                          </a>
+                        </figure>
+                        <h4><a data-scroll href="#aranjellema">Aran Jellema</a></h4>
+                        <p>Teamlead R&D, ChipSoft</p>
+                        <ul class="social-block">
+                            <li><a href="https://www.linkedin.com/in/aranjellema/" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div> <!-- row -->
+        </div>
+    </section>
+
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Agenda</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-coffee">
+                        <div class="time">
+                            15:30
+                        </div>
+                        <h4>Ontvangst met koffie & thee</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-session">
+                        <img src="assets/images/flag-nl.png" class="session-flag" alt="Nederlands" />
+                        <div class="time">
+                            16:00
+                        </div>
+                        <h4><a data-scroll href="#codedoc">Gebruik je broncode als documentatie voor je stakeholders</a></h4>
+                        <a data-scroll href="#michaelhompus">Michaël Hompus</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-session">
+                        <img src="assets/images/flag-nl.png" class="session-flag" alt="Nederlands" />
+                        <div class="time">
+                            17:00
+                        </div>
+                        <h4><a data-scroll href="#devbox">Efficient and Secure Software Delivery with Azure Deployment Environments and Dev Box</a></h4>
+                        <a data-scroll href="#erwinstaal">Erwin Staal</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-dinner">
+                        <div class="time">
+                            18:00
+                        </div>
+                        <h4>Eten</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-session">
+                        <img src="assets/images/flag-nl.png" class="session-flag" alt="Nederlands" />
+                        <div class="time">
+                            19:00
+                        </div>
+                        <h4><a data-scroll href="#aiinzorg">Toepassing van AI in de zorg; hype, hoop en haalbaarheid</a></h4>
+                        <a data-scroll href="#aranjellema">Aran Jellema</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-session">
+                        <img src="assets/images/flag-nl.png" class="session-flag" alt="Nederlands" />
+                        <div class="time">
+                            20:00
+                        </div>
+                        <h4><a data-scroll href="#bicep">What's new with Azure Bicep?</a></h4>
+                        <a data-scroll href="#henrybeen">Henry Been</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="schedule-box schedule-box-drinks">
+                        <div class="time">
+                            21:00 - 22:00
+                        </div>
+                        <h4>Naborrelen met de sprekers</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Hoofdsponsors</a></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.duo.nl/" target="_blank" class="partner-box partner-box-duo"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.gasunie.nl/" target="_blank" class="partner-box partner-box-gasunie"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.kpn.com/" target="_blank" class="partner-box partner-box-kpn"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="https://www.ordina.nl/" target="_blank" class="partner-box partner-box-ordina"></a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://www.xprtz.net/" target="_blank" class="partner-box partner-box-xprtz"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title-centered">Jaarsponsors</h3>
+                    <p class="sponsor-informatie">
+                        <a href="#sponsorinformatie" class="ion-information-circled">informatie voor sponsors</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://newnexus.nl/" target="_blank" class="partner-box main-partner partner-box-newnexus"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.vitas.nl/" target="_blank" class="partner-box main-partner partner-box-vitas"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.axians.nl/" target="_blank" class="partner-box main-partner partner-box-axians"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="http://www.4dotnet.nl/" target="_blank" class="partner-box main-partner partner-box-4dotnet"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.getthere.nl/" target="_blank" class="partner-box main-partner partner-box-getthere"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.quintor.nl/" target="_blank" class="partner-box main-partner partner-box-quintor"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="https://www.elabnext.com/" target="_blank" class="partner-box main-partner partner-box-elabnext"></a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://capteur.nl/" target="_blank" class="partner-box main-partner partner-box-capteur"></a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <h3 class="section-title-centered">Evenementsponsors</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="https://www.cgi.com/nl/nl" target="_blank" class="partner-box partner-box-cgi"></a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://www.chipsoft.com/nl-NL/" target="_blank" class="partner-box partner-box-chipsoft"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3 class="section-title">Locatie</h3>
+                    <address>
+                        <p>
+                            Gasunie<br>
+                            Concourslaan 17<br>
+                            9727 KC<br>
+                            Groningen
+                        </p>
+                    </address>
+                </div>
+                <div class="col-sm-9">
+                    <div id="map" style="width:600px;height:450px;max-width:100%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sessions" class="section sessions">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title-centered">Sessies</h3>
+                </div>
+            </div>
+            <div id="codedoc" class="row">
+                <div class="col-sm-12">
+                    <img src="assets/images/flag-nl.png" class="session-flag" title="Nederlands" />
+                    <h4 class="section-title">Gebruik je broncode als documentatie voor je stakeholders</h4>
+                    <h5>Michaël Hompus / 16:00 - 17:00</h5>
+                    <p>
+                        Als ontwikkelteam is het schrijven van documentatie vaak niet onze favoriete activiteit. En het up-to-date houden na elke codewijziging is een nog grotere uitdaging. Ontwikkelaars beweren dat de broncode de documentatie zelf is, maar zijn stakeholders het daarmee eens, lezen ze eigenlijk de code?
+                        <br/>
+                        Wat als onze broncode de bron van onze documentatie zou zijn, voor het team en onze stakeholders?
+                        <br/><br/>
+                        In deze sessie gaan we kijken hoe we Roslyn kunnen gebruiken om documentatie te genereren. Denk hierbij aan het maken van diagrammen die de structuur en relaties weergeven binnen een aggregate of een sequence diagram die de flow door de applicatie kan weergeven.
+                        <br/><br/>
+                        We duiken de code in waarbij we kijken hoe we projecten en solutions kunnen laden, syntax trees kunnen gebruiken om de structuur van onze source code te doorlopen en branching logica detecteren om alternatieve paden vast te leggen. Daarna zullen we deze gegevens weergeven naar andere bestandsindelingen zoals PlantUML, markdown en AsciiDoc.
+                        <br/><br/>
+                        Na deze sessie ben je in staat je broncode te laten spreken in vormen die je team én je stakeholders de werking van je applicatie haarfijn uitlegt.
+                    </p>
+                </div>
+            </div>
+            <div id="devbox" class="row">
+                <div class="col-sm-12">
+                    <img src="assets/images/flag-nl.png" class="session-flag" title="Nederlands" />
+                    <h4 class="section-title">Efficient and Secure Software Delivery with Azure Deployment Environments and Dev Box</h4>
+                    <h5>Erwin Staal / 17:00 - 18:00</h5>
+                    <p>
+                        DevOps heeft de snelheid van softwareontwikkeling verbeterd, maar organisaties staan nog steeds voor de uitdaging om een efficiënte en veilige infrastructuur voor teams te bieden, terwijl ze wendbaarheid, beveiliging en naleving in balans houden. Om dit aan te pakken, is Azure Deployment Environments een nieuwe dienst die een manier biedt om snel app-omgevingen op te zetten, waarbij maximale beveiliging, naleving en kostenefficiëntie worden gewaarborgd. Het past perfect binnen de opkomende zelfbedieningsplatform engineering aanpak.
+                        <br/><br/>
+                        Door omgevingstypen te definiëren, kunnen platformingenieurs het voor ontwikkelaars eenvoudig maken om omgevingen te implementeren met de juiste services, middelen en beleidsregels toegepast. Azure Deployment Environments integreert goed met CI/CD-tools, wat zorgt voor een soepele overgang van ontwikkeling naar productie.
+                        <br/><br/>
+                        Maar waar bouwen ontwikkelaars hun apps? Hoe zorgen we ervoor dat nieuwe engineers snel aan boord komen? Onder dezelfde paraplu als Deployment Environments biedt Azure Dev Box een gestroomlijnde ontwikkelervaring door ontwikkelaars vooraf geconfigureerde omgevingen te bieden die zijn afgestemd op hun behoeften. Deze tool zorgt voor consistentie tussen ontwikkelomgevingen en faciliteert samenwerking tussen teamleden.
+                        <br/><br/>
+                        Deze sessie zal een demonstratie geven van de functies en installatie van Azure Deployment Environments, inclusief integratie met Azure Dev Box en CI/CD-pijplijnen, en laten zien hoe deze tools gezamenlijk de efficiëntie en beveiliging van softwarelevering verbeteren.
+                    </p>
+                </div>
+            </div>
+            <div id="aiinzorg" class="row">
+                <div class="col-sm-12">
+                    <img src="assets/images/flag-nl.png" class="session-flag" title="Nederlands" />
+                    <h4 class="section-title">Toepassing van AI in de zorg; hype, hoop en haalbaarheid</h4>
+                    <h5>Aran Jellema / 19:00 - 20:00</h5>
+                    <p>
+                        De uitspraak dat AI van grote meerwaarde gaat zijn in de zorg is niet van gisteren; al sinds de jaren 90 wordt er over gesproken. Ondanks het feit dat de kwaliteit van de modellen en de beschikbare rekenkracht bleven toenemen, was er geen adoptie. De afgelopen jaren lijkt het tij gekeerd te zijn; met name de komst van LLMs zoals ChatGPT lijken een nieuw hoofdstuk in te luiden. Is dit de doorbraak waar we op hebben gewacht?
+                        <br/><br/>
+                        Vanuit mijn rol als teamlead R&D voor een grote leverancier van elektronische patiëntdossiers geef ik een kijkje achter de schermen welke veelbelovende ontwikkelingen er nu gaande zijn. Nieuwe bedrijven en toepassingen schieten als paddenstoelen uit de grond. Hoe integreer je al deze oplossingen optimaal in je eigen product, waarbij je de keuze aan klant laat met welke modellen men wil werken? Welke technische uitdagingen geeft dat, hoe zorg je dat privacy gewaarborgd blijft, en hoe zorg je ervoor dat er het niet leid tot foute keuzes waardoor patiëntveiligheid in het geding komt?
+                        <br/><br/>
+                        Tot slot neem ik jullie mee in meerdere concrete oplossingen die we nu al in praktijk brengen, laat ik zien hoe het onze eigen software verrijkt, en welke meerwaarde het zorgverleners nu en in de toekomst gaat brengen.
+                    </p>
+                </div>
+            </div>
+
+            <div id="bicep" class="row">
+                <div class="col-sm-12">
+                    <img src="assets/images/flag-nl.png" class="session-flag" title="Nederlands" />
+                    <h4 class="section-title">What's new with Azure Bicep?</h4>
+                    <h5>Henry Been / 20:00 - 21:00</h5>
+                    <p>
+                        In deze sessie duiken we dieper in Azure Bicep en gaan we dieper dan de 101 basis. We richten ons op enkele functies die recent zijn uitgebracht en waardevol zijn bij het werken in grotere teams.
+                        <br/><br/>
+                        We behandelen Bicep-parameterbestanden, door de gebruiker gedefinieerde typen, de Bicep-registry, bijgewerkte interactie met VS Code, linter- en validatieregels, het eenvoudiger verwijzen naar geheimen in Key Vault, en mogelijk meer!
+                        <br/><br/>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speaker_bio" class="section speaker_bio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title-centered">Info Sprekers</h3>
+                </div>
+            </div>
+            <div id="michaelhompus" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Michaël Hompus</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left" src="https://sessionize.com/image/0701-200o200o2-shRLSDi2oh8NpDWUYxNJDZ.jpg">
+                    </figure>
+                    <p>
+                        Michaël Hompus is een Architect en Area Lead bij Info Support.
+                        <br/><br/>
+                        Als architect maakt hij deel uit van verschillende teams en creëert hij nieuwe en innovatieve oplossingen, bij voorkeur met gebruik van de Microsoft Cloud.<br/>
+                        Michaël heeft vele jaren ervaring in ontwikkeling met dotnet, Java, Azure, DevOps, Office en Dynamics 365.
+                        <br/><br/>
+                        Zijn passie is het delen van kennis met collega's, klanten en vakgenoten.
+                    </p>
+                </div>
+            </div>
+            <div id="erwinstaal" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Erwin Staal</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left" src="https://sessionize.com/image/9d5a-200o200o2-dc-8ec0-4bb0-b1a2-7c4b603830f8.8fa6c36d-b6c3-4ba9-a718-96ce8390c8ab.jpg">
+                    </figure>
+                    <p>
+                        Erwin Staal is een Azure Architect en DevOps consultant werkzaam bij Xebia in Nederland. Hij houdt ervan om bedrijven te helpen hun software aan klanten te leveren met behulp van DevOps-werkwijze en cloud-native architecturen. Hij gelooft in de kracht van zowel de monoliet als microservices en geeft de voorkeur aan het draaien van workloads op de Azure Cloud en/of Kubernetes.
+                        <br/><br/>
+                        Naast het werk dat hij doet voor de klanten van Xebia, heeft hij een passie voor het delen van kennis. Hij is een van de auteurs van 'Azure Infrastructure as Code' (https://www.manning.com/books/azure-infrastructure-as-code), schrijft af en toe een blog en is een internationale spreker op conferenties.                    </p>
+                </div>
+            </div>
+            <div id="aranjellema" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Aran Jellema</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left" src="https://sessionize.com/image/78e0-200o200o2-X3JR5hQBp7X1W1yGgWpoZD.jpg">
+                    </figure>
+                    <p>
+                        Teamleider research & development met meer dan 24 jaar werkervaring in de software-industrie. Ik werk voor ChipSoft, een toonaangevende leverancier van elektronische patiëntendossiers. Ik ontwerp en implementeer innovatieve en gebruiksvriendelijke oplossingen die in de dagelijkse praktijk worden ingezet door artsen, verpleegkundigen en op de spoedeisende hulp. Daarnaast adviseer ik klanten over de beste implementatiestrategie die aansluit bij hun behoeften en doelen. Ik word blij van het verbeteren van de kwaliteit en efficiëntie van de zorg, en van samenwerken met veel verschillende stakeholders.
+                    </p>
+                </div>
+            </div>
+            <div id="henrybeen" class="row speaker">
+                <div class="col-sm-12">
+                    <h4 class="section-title">Henry Been</h4>
+                    <figure>
+                        <img alt="" class="img-responsive pull-left" src="https://sessionize.com/image/cfaa-200o200o2-UFJ4cRpkA5pvUar5ynhczk.jpg">
+                    </figure>
+                    <p>Henry Been is een onafhankelijk architect en ontwikkelaar uit Nederland. Hij geniet ervan om samen te werken met teams om geweldige software voor de Azure-cloud te creëren en te leveren. Zijn interesses omvatten de Azure-cloud, Agile, DevOps, softwarearchitectuur en het ontwerpen en implementeren van testbare en onderhoudbare software.
+                        <br/><br/>
+                        Naast zijn werk is hij een spreker op (inter-)nationale conferenties, is hij de auteur van twee boeken en creëert hij online trainingcursussen voor Pluralsight en A Cloud Guru. Voor zijn werk in de community heeft hij sinds 2019 elk jaar de Microsoft MVP Award ontvangen. Je kunt Henry volgen via zijn blog of op Twitter: @henry_been</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">devNetNoord 2024</p>
+                    <ul class="social-block">
+                        <li><a href="https://www.meetup.com/devnetnoord" target="_blank"><i class="social-meetup"></i></a></li>
+                        <li><a href="https://speakerdeck.com/devnetnoord" target="_blank"><i class="social-speakerdeck"></i></a></li>
+                        <li><a href="https://github.com/devNetNoord" target="_blank"><i class="ion-social-github"></i></a></li>
+                        <li><a href="https://twitter.com/devnetnoord" target="_blank"><i class="social-x"></i></a></li>
+                        <li><a href="https://www.facebook.com/devnetnoord/" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/groups/4056831" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="mailto:info@devnetnoord.nl"><i class="ion-email"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="dialog-container" id="sponsorinformatie">
+        <div class="dialog">
+            <a href="#" class="dialog-close ion-close"></a>
+            <div class="row dialog-title">
+                <h3>Informatie voor sponsors</h3>
+            </div>
+            <div class="row dialog-content">
+                <p>
+                    Wat betekent het om sponsor voor devNetNoord te zijn?
+                    Er zijn 3 sponsorpakketten, afhankelijk van het soort event:
+                    <dl>
+                        <dt>devNetNoord pakket</dt>
+                        <dd>
+                            Een devNetNoord avond event (3 à 4 sessies) kun je sponsoren voor <strong>500 euro</strong>.
+                            Je krijgt als bedrijf hiervoor:
+                            <ol>
+                                <li>Een vermelding (logo + link) op de website devnetnoord.nl</li>
+                                <li>Vermeldingen op social media</li>
+                                <li>Vermelding op de slides tijdens het event</li>
+                                <li>De gelegenheid een spreker te leveren*</li>
+                            </ol>
+                        </dd>
+                        <dt>devCampNoord pakket</dt>
+                        <dd>
+                            Een devCampNoord dag event (ca 11 sessies in 3 tracks) kun je sponsoren voor <strong>1000 euro</strong>.
+                            Je krijgt als bedrijf hiervoor:
+                            <ol>
+                                <li>Alles van het devNetNoord pakket</li>
+                                <li>Een stand nabij de zalen om in contact te komen met het publiek</li>
+                                <li>Goodie leveren voor in de goodiebag</li>
+                            </ol>
+                            <small>NB: Je kunt niet met het devCampNoord pakket een devNetNoord event sponsoren.<br/><br/></small>
+                        </dd>
+                        <dt>Jaarpakket</dt>
+                        <dd>
+                            Wij organiseren jaarlijks één devNetNoord en één devCampNoord event.
+                            Als je devNetNoord een jaar lang wilt sponsoren combineren we het devNetNoord pakket en devCampNoord pakket in een jaarpakket voor <strong>1500 euro</strong>.
+                        </dd>
+                    </dl>
+                    <small>*: Bestuur devNetNoord bepaalt de uiteindelijke programma samenstelling</small>
+                </p>
+                <p>
+                    Meer informatie of vragen: <a href="mailto:info@devnetnoord.nl">info@devnetnoord.nl</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script type="text/html" id="popup-gasunie">
+        <b>Gasunie</b><br/>
+        Concourslaan 17<br/>
+        9727 KC<br/>
+        Groningen<br/>
+        <br/>
+        <a href="https://www.gasunie.nl/" target="_blank">https://www.gasunie.nl/</a><br/>
+        <br/>
+        <a href="https://www.openstreetmap.org/search?query=gasunie#map=16/53.2012/6.5510" target="_blank">🗺️ Open grote kaart</a> |
+        <a href="https://www.openstreetmap.org/directions?from=&to=53.2012%2C6.5510#map=16/53.2012/6.5510" target="_blank">🧭 Plan je route</a>
+    </script>
+    <script>
+        var locationGasunie = [53.2012, 6.5510];
+        var map = L.map('map').setView(locationGasunie, 13);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        var marker = L.marker(locationGasunie).addTo(map);
+        marker.bindPopup(document.getElementById('popup-gasunie').innerHTML).openPopup();
+    </script>
+    <script>
+        (function() {
+            var cfsCloseDate = new Date(2024, 5, 30, 12, 0, 0); // June 30, 2024, 12:00:00
+            function hideDiv() {
+                var now = new Date();
+                if (now >= cfsCloseDate) {
+                    var div = document.getElementById('call-for-speakers');
+                    if (div) {
+                        div.style.display = 'none';
+                    }
+                }
+            }
+
+            hideDiv();
+            setInterval(hideDiv, 60000);
+        })();
+    </script>
+</body>
+
+</html>
