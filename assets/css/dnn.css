@@ -351,11 +351,11 @@ p.sponsor-informatie a.ion-information-circled::before {
 }
 .dialog {
   background-color: #fff;
-  bottom: 60px;
+  bottom: 40px;
   left: 50%;
   padding: 25px 50px;
   position: absolute;
-  top: 60px;
+  top: 40px;
   transform: translateX(-50%);
   width: 60%;
 }
